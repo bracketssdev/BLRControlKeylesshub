@@ -1,6 +1,6 @@
 --[[
     KEYLESS HUB
-    Version 1.6
+    Version 1.7
     Discord: https://discord.gg/VaNyVR2Zwk
     Standalone LocalScript
 
@@ -188,7 +188,7 @@ local Subtitle = Instance.new("TextLabel")
 Subtitle.Position = UDim2.fromOffset(16, 34)
 Subtitle.Size = UDim2.new(1, -55, 0, 14)
 Subtitle.BackgroundTransparency = 1
-Subtitle.Text = "BALL CONTROL  •  V1.6  •  DRAG TO MOVE"
+Subtitle.Text = "BALL CONTROL  •  V1.7  •  DRAG TO MOVE"
 Subtitle.TextColor3 = Purple
 Subtitle.Font = Enum.Font.GothamBold
 Subtitle.TextSize = 9
@@ -1196,19 +1196,79 @@ local function Tween(inst, time, props, style, direction)
     return tween
 end
 
+-- Fade helpers (plain Frames instead of CanvasGroups: faster and more reliable).
+local function CollectFade(root)
+    local list = {}
+
+    local function add(inst)
+        local props = {}
+
+        if inst:IsA("GuiObject") then
+            props.BackgroundTransparency = inst.BackgroundTransparency
+        end
+
+        if inst:IsA("TextLabel") or inst:IsA("TextButton") or inst:IsA("TextBox") then
+            props.TextTransparency = inst.TextTransparency
+        end
+
+        if inst:IsA("UIStroke") then
+            props.Transparency = inst.Transparency
+        end
+
+        if next(props) then
+            table.insert(list, { Instance = inst, Original = props })
+        end
+    end
+
+    add(root)
+    for _, inst in ipairs(root:GetDescendants()) do
+        add(inst)
+    end
+
+    return list
+end
+
+local function HideFade(list)
+    for _, item in ipairs(list) do
+        for prop in pairs(item.Original) do
+            item.Instance[prop] = 1
+        end
+    end
+end
+
+local function ShowFade(list, time)
+    for _, item in ipairs(list) do
+        Tween(item.Instance, time, item.Original, Enum.EasingStyle.Sine)
+    end
+end
+
+local function FadeOutAll(list, time)
+    for _, item in ipairs(list) do
+        local props = {}
+        for prop in pairs(item.Original) do
+            props[prop] = 1
+        end
+        Tween(item.Instance, time, props, Enum.EasingStyle.Sine)
+    end
+end
+
 local function PlayIntro()
     local TitleText = "KEYLESS HUB"
     local LightPurple = Color3.fromRGB(190, 160, 255)
+    local HoverPurple = Color3.fromRGB(170, 120, 255)
 
-    -- Full-screen overlay (a CanvasGroup so the whole intro fades as one).
-    local Intro = Instance.new("CanvasGroup")
+    local Skipped = false
+    local Clicked = false
+
+    -- Full-screen overlay. It is opaque immediately, so there is no waiting
+    -- for a fade-in before the content starts.
+    local Intro = Instance.new("Frame")
     Intro.Name = "Intro"
     Intro.Size = UDim2.fromScale(1, 1)
     Intro.BackgroundColor3 = Color3.fromRGB(8, 8, 14)
     Intro.BorderSizePixel = 0
     Intro.Active = true -- blocks clicks from reaching the game
     Intro.ZIndex = 50
-    Intro.GroupTransparency = 1
     Intro.Parent = GUI
 
     -- Soft pulsing glow behind the title.
@@ -1223,13 +1283,13 @@ local function PlayIntro()
     Glow.Parent = Intro
     Instance.new("UICorner", Glow).CornerRadius = UDim.new(1, 0)
 
-    TweenService:Create(Glow, TweenInfo.new(2.2, Enum.EasingStyle.Sine,
+    TweenService:Create(Glow, TweenInfo.new(1.8, Enum.EasingStyle.Sine,
         Enum.EasingDirection.InOut, -1, true), {
         Size = UDim2.fromOffset(420, 420),
         BackgroundTransparency = 0.95
     }):Play()
 
-    -- Floating particles.
+    -- Floating particles (start almost immediately).
     local Particles = Instance.new("Frame")
     Particles.Size = UDim2.fromScale(1, 1)
     Particles.BackgroundTransparency = 1
@@ -1237,7 +1297,7 @@ local function PlayIntro()
     Particles.ZIndex = 1
     Particles.Parent = Intro
 
-    for i = 1, 18 do
+    for i = 1, 16 do
         task.spawn(function()
             local rng = Random.new(i * 977)
 
@@ -1250,11 +1310,11 @@ local function PlayIntro()
             Instance.new("UICorner", dot).CornerRadius = UDim.new(1, 0)
             dot.Parent = Particles
 
-            task.wait(rng:NextNumber(0, 2.5))
+            task.wait(rng:NextNumber(0, 1))
 
             while Alive and Intro.Parent ~= nil do
                 local x = rng:NextNumber(0.02, 0.98)
-                local duration = rng:NextNumber(4, 8)
+                local duration = rng:NextNumber(3, 6)
 
                 dot.Position = UDim2.new(x, 0, 1.05, 0)
                 dot.BackgroundTransparency = 1
@@ -1310,7 +1370,7 @@ local function PlayIntro()
     WePresent.TextSize = 13
     WePresent.Parent = Container
 
-    -- Title (typewriter + shimmer)
+    -- Title (fast typewriter + shimmer)
     local TitleLabel = Instance.new("TextLabel")
     TitleLabel.Position = UDim2.new(0, 0, 0, 22)
     TitleLabel.Size = UDim2.new(1, 0, 0, 60)
@@ -1331,7 +1391,7 @@ local function PlayIntro()
     Shimmer.Offset = Vector2.new(-1, 0)
     Shimmer.Parent = TitleLabel
 
-    TweenService:Create(Shimmer, TweenInfo.new(2.2, Enum.EasingStyle.Linear,
+    TweenService:Create(Shimmer, TweenInfo.new(1.6, Enum.EasingStyle.Linear,
         Enum.EasingDirection.InOut, -1), {
         Offset = Vector2.new(1, 0)
     }):Play()
@@ -1360,19 +1420,18 @@ local function PlayIntro()
     local BadgeText = Instance.new("TextLabel")
     BadgeText.Size = UDim2.fromScale(1, 1)
     BadgeText.BackgroundTransparency = 1
-    BadgeText.Text = "V1.6"
+    BadgeText.Text = "V1.7"
     BadgeText.TextColor3 = White
     BadgeText.TextTransparency = 1
     BadgeText.Font = Enum.Font.GothamBlack
     BadgeText.TextSize = 16
     BadgeText.Parent = Badge
 
-    -- Discord card (inside a CanvasGroup so it can fade + slide as one)
-    local CardGroup = Instance.new("CanvasGroup")
-    CardGroup.Position = UDim2.new(0, 0, 0, 176)
+    -- Discord card
+    local CardGroup = Instance.new("Frame")
+    CardGroup.Position = UDim2.new(0, 0, 0, 170)
     CardGroup.Size = UDim2.new(1, 0, 0, 150)
     CardGroup.BackgroundTransparency = 1
-    CardGroup.GroupTransparency = 1
     CardGroup.Parent = Container
 
     local Card = Instance.new("Frame")
@@ -1442,10 +1501,8 @@ local function PlayIntro()
     CopyButton.Parent = Card
     Instance.new("UICorner", CopyButton).CornerRadius = UDim.new(0, 8)
 
-    local CopyHover = Color3.fromRGB(170, 120, 255)
-
     Connect(CopyButton.MouseEnter, function()
-        Tween(CopyButton, 0.15, { BackgroundColor3 = CopyHover })
+        Tween(CopyButton, 0.15, { BackgroundColor3 = HoverPurple })
     end)
 
     Connect(CopyButton.MouseLeave, function()
@@ -1517,92 +1574,126 @@ local function PlayIntro()
     ContinueStroke.Parent = Continue
 
     Connect(Continue.MouseEnter, function()
-        Tween(Continue, 0.15, { BackgroundColor3 = CopyHover })
+        Tween(Continue, 0.15, { BackgroundColor3 = HoverPurple })
     end)
 
     Connect(Continue.MouseLeave, function()
         Tween(Continue, 0.15, { BackgroundColor3 = Purple })
     end)
 
-    local Clicked = false
     Connect(Continue.MouseButton1Click, function()
         Clicked = true
     end)
 
+    -- Skip button (always available)
+    local SkipButton = Instance.new("TextButton")
+    SkipButton.AnchorPoint = Vector2.new(1, 1)
+    SkipButton.Position = UDim2.new(1, -18, 1, -18)
+    SkipButton.Size = UDim2.fromOffset(80, 28)
+    SkipButton.BackgroundTransparency = 1
+    SkipButton.Text = "SKIP  ▶"
+    SkipButton.TextColor3 = Muted
+    SkipButton.Font = Enum.Font.GothamBold
+    SkipButton.TextSize = 11
+    SkipButton.ZIndex = 3
+    SkipButton.Parent = Intro
+
+    Connect(SkipButton.MouseEnter, function()
+        SkipButton.TextColor3 = White
+    end)
+
+    Connect(SkipButton.MouseLeave, function()
+        SkipButton.TextColor3 = Muted
+    end)
+
+    Connect(SkipButton.MouseButton1Click, function()
+        Skipped = true
+    end)
+
+    -- The card starts hidden and fades in with the rest of its contents.
+    local CardFade = CollectFade(CardGroup)
+    HideFade(CardFade)
+
     ---------------------------------------------------------------
-    -- TIMELINE
+    -- TIMELINE (about 1.6 seconds until CONTINUE appears)
     ---------------------------------------------------------------
 
-    Tween(Intro, 0.5, { GroupTransparency = 0 }, Enum.EasingStyle.Sine)
-    task.wait(0.35)
+    -- Waits up to `seconds`, returns true early if the intro was skipped.
+    local function Wait(seconds)
+        local finish = os.clock() + seconds
 
-    local BarTween = Tween(Fill, 3.6, { Size = UDim2.fromScale(1, 1) },
-        Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+        while os.clock() < finish and not Skipped and Alive do
+            task.wait()
+        end
 
-    -- 1) We present
-    Tween(WePresent, 0.7, {
-        Position = UDim2.new(0, 0, 0, 0),
-        TextTransparency = 0
-    })
-    task.wait(0.5)
-
-    -- 2) Accent line
-    Tween(Line, 0.6, { Size = UDim2.fromOffset(260, 3) })
-    task.wait(0.15)
-
-    -- 3) Title typewriter
-    for i = 1, #TitleText do
-        if not Alive then return end
-        TitleLabel.MaxVisibleGraphemes = i
-        task.wait(0.055)
+        return Skipped or not Alive
     end
-    task.wait(0.1)
 
-    -- 4) Version badge pops in
-    Tween(Badge, 0.5, { Size = UDim2.fromOffset(96, 32) },
-        Enum.EasingStyle.Back, Enum.EasingDirection.Out)
-    Tween(BadgeText, 0.4, { TextTransparency = 0 })
-    task.wait(0.35)
+    local function Sequence()
+        local started = os.clock()
 
-    -- 5) Discord card slides up
-    Tween(CardGroup, 0.7, {
-        Position = UDim2.new(0, 0, 0, 150),
-        GroupTransparency = 0
-    })
+        -- Everything starts at once: text, line and loading bar.
+        Tween(WePresent, 0.35, {
+            Position = UDim2.new(0, 0, 0, 0),
+            TextTransparency = 0
+        })
+        Tween(Line, 0.45, { Size = UDim2.fromOffset(260, 3) })
+        Tween(Fill, 1.5, { Size = UDim2.fromScale(1, 1) },
+            Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 
-    -- 6) Wait for loading to finish
-    BarTween.Completed:Wait()
-    if not Alive then return end
+        if Wait(0.1) then return end
 
-    Tween(Track, 0.3, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
-    Tween(Fill, 0.3, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
-    task.wait(0.2)
+        -- Title typewriter (0.03s per letter).
+        for i = 1, #TitleText do
+            TitleLabel.MaxVisibleGraphemes = i
+            if Wait(0.03) then return end
+        end
 
-    Continue.Text = "CONTINUE  ▶"
-    Continue.Visible = true
-    Tween(Continue, 0.45, { Size = UDim2.fromOffset(200, 38) },
-        Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+        -- Version badge pops in.
+        Tween(Badge, 0.4, { Size = UDim2.fromOffset(96, 32) },
+            Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+        Tween(BadgeText, 0.3, { TextTransparency = 0 })
+        if Wait(0.15) then return end
 
-    TweenService:Create(ContinueStroke, TweenInfo.new(0.9, Enum.EasingStyle.Sine,
-        Enum.EasingDirection.InOut, -1, true), {
-        Transparency = 0.85
-    }):Play()
+        -- Discord card slides up and fades in.
+        ShowFade(CardFade, 0.45)
+        Tween(CardGroup, 0.5, { Position = UDim2.new(0, 0, 0, 150) })
 
-    repeat
-        task.wait()
-    until Clicked or not Alive
+        local remaining = 1.5 - (os.clock() - started)
+        if remaining > 0 and Wait(remaining) then return end
 
-    if not Alive then return end
+        -- Loading finished: swap the bar for the CONTINUE button.
+        Tween(Track, 0.2, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
+        Tween(Fill, 0.2, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
+        if Wait(0.12) then return end
 
-    -- 7) Exit: zoom + fade out
-    Tween(ContainerScale, 0.6, { Scale = ContainerScale.Scale * 1.08 },
-        Enum.EasingStyle.Sine, Enum.EasingDirection.In)
+        Continue.Text = "CONTINUE  ▶"
+        Continue.Visible = true
+        Tween(Continue, 0.4, { Size = UDim2.fromOffset(200, 38) },
+            Enum.EasingStyle.Back, Enum.EasingDirection.Out)
 
-    local FadeOut = Tween(Intro, 0.6, { GroupTransparency = 1 },
-        Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-    FadeOut.Completed:Wait()
+        TweenService:Create(ContinueStroke, TweenInfo.new(0.9, Enum.EasingStyle.Sine,
+            Enum.EasingDirection.InOut, -1, true), {
+            Transparency = 0.85
+        }):Play()
+
+        repeat
+            task.wait()
+        until Clicked or Skipped or not Alive
+    end
+
+    Sequence()
 
     FitConnection:Disconnect()
+
+    if not Alive then return end
+
+    -- Exit: zoom + fade everything out.
+    Tween(ContainerScale, 0.45, { Scale = ContainerScale.Scale * 1.08 },
+        Enum.EasingStyle.Sine, Enum.EasingDirection.In)
+
+    FadeOutAll(CollectFade(Intro), 0.45)
+    task.wait(0.5)
 end
 
 task.spawn(function()
@@ -1623,4 +1714,4 @@ task.spawn(function()
     end
 end)
 
-print("KEYLESS HUB v1.6 loaded!")
+print("KEYLESS HUB v1.7 loaded!")
