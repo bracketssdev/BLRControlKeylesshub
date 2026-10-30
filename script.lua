@@ -1,3 +1,1626 @@
--- Obfuscated with Matcha Obfuscator
--- https://github.com/matcha-obfuscator
-local _0x0,_0x1,_0x2,_0x3,_0x4,_0x5,_0x6,_0x7,_0x8,_0x9,_0xa,_0xb,_0xc,_0xd,_0xe,_0xf,_0x10,_0x11,_0x12,_0x13,_0x14,_0x190,_0x15,_0x16,_0x17,_0x18,_0x19,_0x1a,_0x1b,_0x191,_0x1c,_0x1d,_0x1e,_0x1f,_0x20,_0x21,_0x22,_0x194,_0x23,_0x24,_0x25,_0x26,_0x27,_0x28,_0x29,_0x2a,_0x2b,_0x2c,_0x2d,_0x2e,_0x2f,_0x30,_0x31,_0x35,_0x36,_0x199,_0x37,_0x19a,_0x3a,_0x3b,_0x3c,_0x3d,_0x3e,_0x3f,_0x40,_0x41,_0x42,_0x43,_0x44,_0x45,_0x46,_0x47,_0x1a1,_0x48,_0x1a2,_0x1a5,_0x49,_0x4a,_0x1a9,_0x1aa,_0x4b,_0x1ac,_0x4c,_0x4d,_0x4e,_0x4f,_0x56,_0x5c,_0x5d,_0x5f,_0x62,_0x63,_0x67,_0x68,_0x69,_0x6a,_0x1b0,_0x6b,_0x6c,_0x1b1,_0x1b4,_0x6d,_0x6e,_0x6f,_0x1ba,_0x70,_0x71,_0x1c0,_0x72,_0x1c3,_0x73,_0x1c5,_0x74,_0x1c7,_0x1c8,_0x75,_0x1cb,_0x1cc,_0x1cd,_0x76,_0x77,_0x79,_0x7c,_0x7d,_0x81,_0x84,_0x86,_0x1cf,_0x88,_0x8a,_0x8b,_0x1d0,_0x8e,_0x8f,_0x97,_0x99,_0x1d1,_0x9c,_0x9e,_0xa0,_0xa1,_0xad,_0xb2,_0x1d4,_0xb5,_0xb6,_0xb7,_0xbd;local _0x1f3=4;while true do if _0x1f3 == 2172 then _0x75.Parent=_0x5c;_0x1f3=2180 elseif _0x1f3 == 1751 then _0x71.Position=UDim2.new(0.3,1 - 1,1 - 1,82 + 219 - 31);_0x1f3=1762 elseif _0x1f3 == 1037 then _0x4b.BackgroundColor3=_0x3d;_0x1f3=1044 elseif _0x1f3 == 1451 then if 1 > 2 then local _0x1b5=nil end;_0x1f3=1461 elseif _0x1f3 == 1815 then _0x71.TextSize=10 + 8;_0x1f3=1823 elseif _0x1f3 == 2199 then _0x7c=function() return _0x19 ~= nil and _0x19.Parent ~= nil and _0x19:IsDescendantOf(workspace) and _0x19:IsA(__0x1f4d(1)) end;_0x1f3=2207 elseif _0x1f3 == 558 then _0x44.ResetOnSpawn=false;_0x1f3=563 elseif _0x1f3 == 1790 then if 1 > 2 then local _0x1c1=nil end;_0x1f3=1793 elseif _0x1f3 == 1955 then _0x73.TextSize=5 * 2 + 0;_0x1f3=1963 elseif _0x1f3 == 2469 then _0x31(_0x1.WindowFocusReleased,function() table.clear(_0x2e);_0x4c=false;_0x20=false end);_0x1f3=2472 elseif _0x1f3 == 1872 then _0x72.Parent=_0x5c;_0x1f3=1878 elseif _0x1f3 == 513 then _0x40=Color3.fromRGB(61 * 4 + 1,72 + 173,87 + 168);_0x1f3=519 elseif _0x1f3 == 232 then _0x1c=true;_0x1f3=240 elseif _0x1f3 == 519 then _0x41=Color3.fromRGB(24 * 6 + 1,25 + 154 - 34,85 + 80);_0x1f3=530 elseif _0x1f3 == 1465 then _0x6d.Text=tostring(_0xb);_0x1f3=1475 elseif _0x1f3 == 1895 then do local _0x1c4=269 end;_0x1f3=1900 elseif _0x1f3 == 2230 then _0x86=function(_0x7a) local _0x87;local _0x1e3=4;while true do if _0x1e3 == 8 then _0x87=_0x7a.Name;_0x1e3=17 elseif _0x1e3 == 17 then if _0x7a.Parent and _0x7a.Parent ~= workspace then _0x87=_0x7a.Parent.Name .. __0x1f4d(2) .. _0x7a.Name end;_0x1e3=22 elseif _0x1e3 == 22 then _0x74.Text=__0x1f4d(3) .. _0x87;_0x1e3=33 elseif _0x1e3 == 4 then _0x19=_0x7a;_0x1e3=8 elseif _0x1e3 == 33 then _0x77(_0x7a);_0x1e3=51 else break end end end;_0x1f3=2237 elseif _0x1f3 == 535 then _0x43=Color3.fromRGB(118 + 158 - 21,10 + 90,13 * 8 + 6);_0x1f3=543 elseif _0x1f3 == 380 then _0x2d=nil;_0x1f3=388 elseif _0x1f3 == 306 then _0x23=1 - 1;_0x1f3=313 elseif _0x1f3 == 2440 then do local _0x1d3=860 end;_0x1f3=2445 elseif _0x1f3 == 1661 then if false then local _0x1bb=nil end;_0x1f3=1671 elseif _0x1f3 == 1380 then _0x6c.Font=Enum.Font.GothamBold;_0x1f3=1387 elseif _0x1f3 == 1929 then _0x73.Text=__0x1f4d(4);_0x1f3=1935 elseif _0x1f3 == 2069 then _0x74.Parent=_0x5c;_0x1f3=2074 elseif _0x1f3 == 2080 then if false then local _0x1ca=nil end;_0x1f3=2090 elseif _0x1f3 == 2319 then _0x1d1=(58 + 0) * 1;_0x1f3=2327 elseif _0x1f3 == 1346 then if 1 > 2 then local _0x1b2=nil end;_0x1f3=1354 elseif _0x1f3 == 1697 then if false then local _0x1bc=nil end;_0x1f3=1706 elseif _0x1f3 == 2304 then _0x97=function() local _0x115,_0x98,_0x117;local _0x1e8=4;while true do if _0x1e8 == 60 then _0x117=math.random() * 0;_0x1e8=68 elseif _0x1e8 == 47 then _0x2c=_0x98.CFrame;_0x1e8=50 elseif _0x1e8 == 50 then _0x2d=_0x98.Focus;_0x1e8=60 elseif _0x1e8 == 9 then _0x98=workspace.CurrentCamera;_0x1e8=16 elseif _0x1e8 == 16 then if not _0x98 then if false then local _0x114=nil end;return false end;_0x1e8=26 elseif _0x1e8 == 26 then _0x2a=_0x98.CameraSubject;_0x1e8=33 elseif _0x1e8 == 33 then _0x2b=_0x98.CameraType;_0x1e8=38 elseif _0x1e8 == 68 then return true elseif _0x1e8 == 4 then _0x115=(44 + 0) * 1;_0x1e8=9 elseif _0x1e8 == 38 then if false then local _0x116=nil end;_0x1e8=47 else break end end end;_0x1f3=2315 elseif _0x1f3 == 1951 then _0x73.Font=Enum.Font.GothamBold;_0x1f3=1955 elseif _0x1f3 == 1772 then _0x1c0=math.random() * 0;_0x1f3=1783 elseif _0x1f3 == 1850 then _0x72.Size=UDim2.new(0.3,-(2 + 2),1 - 1,40 + 6 - 14);_0x1f3=1858 elseif _0x1f3 == 2327 then _0x9c=function() local _0x98,_0x120,_0x5a,_0x9d;local _0x1ea=4;while true do if _0x1ea == 89 then _0x98.CFrame=CFrame.new(_0x9d) * CFrame.fromEulerAnglesYXZ(_0x25,_0x24,1 - 1) * CFrame.new(1 - 1,1 - 1,_0x12);_0x1ea=93 elseif _0x1ea == 44 then _0x5a=_0x1:GetMouseDelta();_0x1ea=54 elseif _0x1ea == 32 then if not _0x98 then local _0x11e=math.random() * 0;return end;_0x1ea=38 elseif _0x1ea == 38 then _0x1.MouseBehavior=Enum.MouseBehavior.LockCenter;_0x1ea=44 elseif _0x1ea == 12 then if 1 > 2 then local _0x11f=nil end;_0x1ea=19 elseif _0x1ea == 71 then _0x9d=_0x19.Position;_0x1ea=80 elseif _0x1ea == 100 then _0x98.Focus=CFrame.new(_0x9d);_0x1ea=121 elseif _0x1ea == 4 then if not _0x1a or not _0x7c() then return end;_0x1ea=12 elseif _0x1ea == 19 then _0x98=workspace.CurrentCamera;_0x1ea=22 elseif _0x1ea == 80 then _0x98.CameraType=Enum.CameraType.Scriptable;_0x1ea=89 elseif _0x1ea == 93 then do local _0x122=172 end;_0x1ea=100 elseif _0x1ea == 54 then YYaw=_0x24 - _0x5a.X * _0x11;_0x1ea=60 elseif _0x1ea == 60 then _0x25=math.clamp(_0x25 - _0x5a.Y * _0x11,-1.3,1.3);_0x1ea=66 elseif _0x1ea == 22 then _0x120=(2 + 0) * 1;_0x1ea=32 elseif _0x1ea == 66 then if 1 > 2 then local _0x121=nil end;_0x1ea=71 else break end end end;_0x1f3=2333 elseif _0x1f3 == 2361 then _0x31(_0x69.MouseButton1Click,_0xa1);_0x1f3=2367 elseif _0x1f3 == 988 then _0x1aa=math.random() * 0;_0x1f3=997 elseif _0x1f3 == 2297 then task.spawn(function() while _0x18 do task.wait(1.5);if _0x18 and _0x1e and not _0x1a and not _0x1f then if not _0x19 or not _0x19:IsDescendantOf(workspace) then _0x8f(true) end end end end);_0x1f3=2304 elseif _0x1f3 == 1968 then _0x73.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=1976 elseif _0x1f3 == 115 then if false then local _0x18f=nil end;_0x1f3=122 elseif _0x1f3 == 662 then _0x45.Parent=_0x44;_0x1f3=666 elseif _0x1f3 == 10 then _G.KeylessHub=true;_0x1f3=17 elseif _0x1f3 == 2445 then _0x31(_0x1.InputBegan,function(_0x57,_0xb4) if _0x57.UserInputType == Enum.UserInputType.MouseButton1 then if _0xb4 then return end;if _0x1b and not _0x1a then _0x88();return end;_0x20=true;return end;if _0x57.KeyCode == Enum.KeyCode.Escape and _0x1a then _0x9e();return end;if _0xb4 then return end;if _0x57.KeyCode == _0x16 then if not _0x36 then return end;_0x45.Visible=not _0x45.Visible;_0x4c=false;return end;if not _0x1a then return end;if _0x57.KeyCode == _0x15 then _0x9e();return end;if _0x57.KeyCode == Enum.KeyCode.W then _0x2e.W=true end end);_0x1f3=2455 elseif _0x1f3 == 2055 then _0x74.TextSize=1 + 9;_0x1f3=2062 elseif _0x1f3 == 1139 then _0x4e=nil;_0x1f3=1142 elseif _0x1f3 == 1445 then _0x6d.BackgroundColor3=_0x3d;_0x1f3=1451 elseif _0x1f3 == 1671 then _0x6f.Parent=_0x5c;_0x1f3=1677 elseif _0x1f3 == 2479 then _0xb5=function(_0x5a) local _0x1ef=4;while true do if _0x1ef == 11 then _0x71.Text=tostring(_0x6);_0x1ef=18 elseif _0x1ef == 18 then _0x76(__0x1f4d(5) .. _0x6,_0x42);_0x1ef=37 elseif _0x1ef == 4 then _0x6=math.clamp(_0x6 + _0x5a,_0x7,_0x8);_0x1ef=11 else break end end end;_0x1f3=2487 elseif _0x1f3 == 417 then _0x31=function(_0x32,_0x33) local _0x34;local _0x1d6=5;while true do if _0x1d6 == 19 then table.insert(_0x2f,_0x34);_0x1d6=26 elseif _0x1d6 == 9 then if false then local _0xe4=nil end;_0x1d6=19 elseif _0x1d6 == 5 then _0x34=_0x32:Connect(_0x33);_0x1d6=9 elseif _0x1d6 == 26 then return _0x34 else break end end end;_0x1f3=425 elseif _0x1f3 == 327 then _0x27=nil;_0x1f3=330 elseif _0x1f3 == 425 then _0x35=__0x1f4d(6);_0x1f3=431 elseif _0x1f3 == 855 then _0x49.Size=UDim2.new(2 - 1,-(11 * 5 + 0),1 - 1,12 + 16);_0x1f3=865 elseif _0x1f3 == 40 then _0x2=game:GetService(__0x1f4d(7));_0x1f3=46 elseif _0x1f3 == 431 then do local _0x198=317 end;_0x1f3=437 elseif _0x1f3 == 736 then _0x47.Transparency=0.25;_0x1f3=745 elseif _0x1f3 == 1334 then _0x1b1=math.random() * 0;_0x1f3=1340 elseif _0x1f3 == 997 then _0x4a.Parent=_0x48;_0x1f3=1006 elseif _0x1f3 == 578 then _0x44.Parent=_0x4:WaitForChild(__0x1f4d(8));_0x1f3=583 elseif _0x1f3 == 2161 then if 1 > 2 then local _0x1ce=nil end;_0x1f3=2168 elseif _0x1f3 == 1943 then _0x1c5=(45 + 0) * 1;_0x1f3=1951 elseif _0x1f3 == 2252 then _0x88=function() local _0x89,_0x10e;local _0x1e4=2;while true do if _0x1e4 == 51 then _0x5f(_0x68,false);_0x1e4=57 elseif _0x1e4 == 57 then do local _0x10d=869 end;_0x1e4=68 elseif _0x1e4 == 68 then _0x86(_0x89);_0x1e4=71 elseif _0x1e4 == 22 then if _0x79(_0x89) then _0x76(__0x1f4d(9),_0x43);return end;_0x1e4=30 elseif _0x1e4 == 2 then _0x89=_0x5.Target;_0x1e4=12 elseif _0x1e4 == 71 then _0x10e=(98 + 0) * 1;_0x1e4=78 elseif _0x1e4 == 78 then _0x76(__0x1f4d(10),_0x42);_0x1e4=94 elseif _0x1e4 == 12 then if not _0x89 or not _0x89:IsA(__0x1f4d(11)) then return end;_0x1e4=16 elseif _0x1e4 == 45 then _0x68.Text=__0x1f4d(12);_0x1e4=51 elseif _0x1e4 == 38 then _0x1b=false;_0x1e4=45 elseif _0x1e4 == 16 then if 1 > 2 then local _0x10c=nil end;_0x1e4=22 elseif _0x1e4 == 30 then _0x1e=false;_0x1e4=38 else break end end end;_0x1f3=2255 elseif _0x1f3 == 814 then _0x1a5=(48 + 0) * 1;_0x1f3=822 elseif _0x1f3 == 1653 then _0x6f.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=1661 elseif _0x1f3 == 172 then _0x190=(9 + 0) * 1;_0x1f3=177 elseif _0x1f3 == 1283 then _0x6a.TextSize=1 * 8 + 3;_0x1f3=1291 elseif _0x1f3 == 1328 then _0x6c.Position=UDim2.fromOffset(1 - 1,129 + 102 - 21);_0x1f3=1334 elseif _0x1f3 == 505 then _0x3f=Color3.fromRGB(45 + 65,11 + 34,7 * 9 + 2);_0x1f3=513 elseif _0x1f3 == 1599 then _0x6f.Size=UDim2.new(2 - 1,1 - 1,1 - 1,3 * 6 + 0);_0x1f3=1604 elseif _0x1f3 == 1114 then Instance.new(__0x1f4d(13),_0x4b).CornerRadius=UDim.new(1 - 1,3 + 3);_0x1f3=1124 elseif _0x1f3 == 2514 then _0x44.Destroying:Connect(function() _0x18=false;if _0x1a then _0x9e() end;pcall(function() _0x2:UnbindFromRenderStep(_0x30) end);_0x1.MouseBehavior=Enum.MouseBehavior.Default;_0x1.MouseIconEnabled=true;if _0x29 then _0x29:Destroy();_0x29=nil end;for _0x58,_0x34 in ipairs(_0x2f) do _0x34:Disconnect() end;table.clear(_0x2f);_G.KeylessHub=nil end);_0x1f3=2522 elseif _0x1f3 == 2292 then _0x31(_0x67.MouseButton1Click,function() if _0x1a then return end;_0x8f(false) end);_0x1f3=2297 elseif _0x1f3 == 1510 then _0x6d.TextSize=8 + 5;_0x1f3=1513 elseif _0x1f3 == 2090 then _0x75.Position=UDim2.fromOffset(1 - 1,59 + 340 - 49);_0x1f3=2095 elseif _0x1f3 == 110 then _0xb=1 + 1;_0x1f3=115 elseif _0x1f3 == 549 then _0x44.Name=__0x1f4d(14);_0x1f3=558 elseif _0x1f3 == 2455 then _0x31(_0x1.InputEnded,function(_0x57) if _0x57.KeyCode == Enum.KeyCode.W then _0x2e.W=false end;if _0x57.UserInputType == Enum.UserInputType.MouseButton1 and _0x20 then _0x20=false;if _0x1a then if _0x1d then _0xa0() end else _0xad(_0x1d) end end end);_0x1f3=2459 elseif _0x1f3 == 1493 then if 1 > 2 then local _0x1b6=nil end;_0x1f3=1500 elseif _0x1f3 == 183 then _0x16=Enum.KeyCode.RightShift;_0x1f3=193 elseif _0x1f3 == 1235 then _0x62=function(_0x5e) local _0xef,_0xf0;local _0x1dc=5;while true do if _0x1dc == 17 then _0xef=math.random() * 0;_0x1dc=23 elseif _0x1dc == 38 then _0x5e.AutoButtonColor=false;_0x1dc=46 elseif _0x1dc == 23 then _0x5e.TextColor3=_0x40;_0x1dc=32 elseif _0x1dc == 32 then _0x5e.Font=Enum.Font.GothamBold;_0x1dc=38 elseif _0x1dc == 5 then _0x5e.BackgroundColor3=_0x3d;_0x1dc=11 elseif _0x1dc == 52 then Instance.new(__0x1f4d(15),_0x5e).CornerRadius=UDim.new(1 - 1,3 + 5);_0x1dc=59 elseif _0x1dc == 59 then do local _0xf1=516 end;_0x1dc=66 elseif _0x1dc == 75 then _0x31(_0x5e.MouseLeave,function() _0x3:Create(_0x5e,TweenInfo.new(.15),{BackgroundColor3=_0x5d(_0x5e)}):Play() end);_0x1dc=91 elseif _0x1dc == 46 then _0xf0=math.random() * 0;_0x1dc=52 elseif _0x1dc == 66 then _0x31(_0x5e.MouseEnter,function() if _0x5e:GetAttribute(__0x1f4d(16)) then return end;_0x3:Create(_0x5e,TweenInfo.new(.15),{BackgroundColor3=_0x3e}):Play() end);_0x1dc=75 elseif _0x1dc == 11 then _0x5e.BorderSizePixel=1 - 1;_0x1dc=17 else break end end end;_0x1f3=1244 elseif _0x1f3 == 388 then _0x2e={};_0x1f3=396 elseif _0x1f3 == 1810 then _0x71.Font=Enum.Font.GothamBold;_0x1f3=1815 elseif _0x1f3 == 2375 then _0xad=function(_0xae) local _0xaf;local _0x1ee=3;while true do if _0x1ee == 8 then if _0x1a or not _0x19 then local _0x133=(23 + 0) * 1;return end;_0x1ee=18 elseif _0x1ee == 43 then task.spawn(function() local _0xb0=os.clock() + _0x17;local _0xb1;while os.clock() < _0xb0 do if not _0x18 or _0xaf ~= _0x21 or _0x1a then return end;if not _0x7c() then return end;_0xb1=_0x7d(_0x19);if not _0xb1 then _0xa1();if _0xae and _0x1a then _0xa0() end;return end;task.wait(0.05) end;if _0x18 and not _0x1a and _0xaf == _0x21 then _0x76((_0xb1 or __0x1f4d(17)) .. __0x1f4d(18),_0x43) end end);_0x1ee=67 elseif _0x1ee == 24 then if not _0x1c and not _0xae then return end;_0x1ee=33 elseif _0x1ee == 33 then AAutoStartToken=_0x21 + (2 - 1);_0x1ee=39 elseif _0x1ee == 39 then _0xaf=_0x21;_0x1ee=43 elseif _0x1ee == 3 then if 1 > 2 then local _0x134=nil end;_0x1ee=8 elseif _0x1ee == 18 then do local _0x135=267 end;_0x1ee=24 else break end end end;_0x1f3=2384 elseif _0x1f3 == 150 then _0x11=0.0035;_0x1f3=157 elseif _0x1f3 == 2404 then _0xb2.TextSize=1 * 8 + 3;_0x1f3=2409 elseif _0x1f3 == 1412 then _0x1b4=math.random() * 0;_0x1f3=1419 elseif _0x1f3 == 1124 then _0x4c=false;_0x1f3=1132 elseif _0x1f3 == 1683 then _0x70.Position=UDim2.fromOffset(1 - 1,40 + 230);_0x1f3=1688 elseif _0x1f3 == 775 then if 1 > 2 then local _0x1a3=nil end;_0x1f3=782 elseif _0x1f3 == 1900 then _0x73=Instance.new(__0x1f4d(19));_0x1f3=1909 elseif _0x1f3 == 2244 then _0x1cf=math.random() * 0;_0x1f3=2252 elseif _0x1f3 == 842 then _0x49.Position=UDim2.fromOffset(6 + 9,4 + 3);_0x1f3=848 elseif _0x1f3 == 1677 then _0x70=Instance.new(__0x1f4d(20));_0x1f3=1683 elseif _0x1f3 == 2472 then if 1 > 2 then local _0x1d5=nil end;_0x1f3=2479 elseif _0x1f3 == 1562 then if false then local _0x1b8=nil end;_0x1f3=1569 elseif _0x1f3 == 1016 then _0x4b.Position=UDim2.new(2 - 1,-(14 + 22),1 - 1,2 + 6);_0x1f3=1027 elseif _0x1f3 == 1075 then if 1 > 2 then local _0x1ae=nil end;_0x1f3=1079 elseif _0x1f3 == 1317 then _0x6c=Instance.new(__0x1f4d(21));_0x1f3=1328 elseif _0x1f3 == 2017 then _0x74.BackgroundTransparency=2 - 1;_0x1f3=2024 elseif _0x1f3 == 1230 then _0x5f=function(_0x5e,_0x60,_0x61) local _0xee;local _0x1db=5;while true do if _0x1db == 22 then _0xee=(58 + 0) * 1;_0x1db=41 elseif _0x1db == 5 then _0x5e:SetAttribute(__0x1f4d(22),_0x61);_0x1db=12 elseif _0x1db == 15 then _0x5e.BackgroundColor3=_0x5d(_0x5e);_0x1db=22 elseif _0x1db == 12 then _0x5e:SetAttribute(__0x1f4d(23),_0x60);_0x1db=15 else break end end end;_0x1f3=1235 elseif _0x1f3 == 1165 then _0x31(_0x1.InputChanged,function(_0x57) if not _0x4c then return end;if _0x57.UserInputType ~= Enum.UserInputType.MouseMovement and _0x57.UserInputType ~= Enum.UserInputType.Touch then return end;local _0x5a=_0x57.Position - _0x4d;local _0x50,_0x51=_0x4f(_0x4e.X + _0x5a.X,_0x4e.Y + _0x5a.Y);_0x45.Position=UDim2.fromOffset(_0x50,_0x51) end);_0x1f3=1174 elseif _0x1f3 == 1340 then _0x6c.Size=UDim2.new(0.55,1 - 1,1 - 1,6 * 5 + 0);_0x1f3=1346 elseif _0x1f3 == 2333 then _0x31(_0x1.InputChanged,function(_0x57) if _0x1a and _0x57.UserInputType == Enum.UserInputType.MouseWheel then _0x12=math.clamp(_0x12 - _0x57.Position.Z * (2 + 0),_0x13,_0x14) end end);_0x1f3=2342 elseif _0x1f3 == 263 then _0x1f=false;_0x1f3=267 elseif _0x1f3 == 1103 then _0x4b.AutoButtonColor=false;_0x1f3=1110 elseif _0x1f3 == 1150 then _0x56=function(_0x57) local _0xea;local _0x1d9=2;while true do if _0x1d9 == 8 then do local _0xe9=288 end;_0x1d9=18 elseif _0x1d9 == 2 then if _0x57.UserInputType ~= Enum.UserInputType.MouseButton1 and _0x57.UserInputType ~= Enum.UserInputType.Touch then return end;_0x1d9=8 elseif _0x1d9 == 22 then _0x4d=_0x57.Position;_0x1d9=31 elseif _0x1d9 == 40 then _0x4e=_0x45.AbsolutePosition;_0x1d9=54 elseif _0x1d9 == 31 then _0xea=math.random() * 0;_0x1d9=40 elseif _0x1d9 == 18 then _0x4c=true;_0x1d9=22 else break end end end;_0x1f3=1157 elseif _0x1f3 == 1612 then _0x6f.Text=__0x1f4d(24);_0x1f3=1618 elseif _0x1f3 == 2287 then _0x8f=function(_0x90) local _0x1e7=1;while true do if _0x1e7 == 18 then if not _0x90 then _0x76(__0x1f4d(25),_0x42) end;_0x1e7=23 elseif _0x1e7 == 1 then if _0x1f then return end;_0x1e7=11 elseif _0x1e7 == 23 then task.spawn(function() local _0x82=_0x4.Character;local _0x7e=_0x82 and _0x82:FindFirstChild(__0x1f4d(26));local _0x91,_0x92,_0x93=nil,1 - 1,math.huge;local _0x94=1 - 1;for _0x58,_0x8c in ipairs(workspace:GetDescendants()) do ccount=_0x94 + (2 - 1);if _0x94 % (2889 + 111) == 1 - 1 then task.wait() end;if _0x8c:IsA(__0x1f4d(27)) then local _0x95=_0x8e(_0x8c);if _0x95 > 1 - 1 and not _0x79(_0x8c) then local _0x96=_0x7e and _0x8c.Position - _0x7e.Position.Magnitude or 1 - 1;if _0x95 > _0x92 or _0x95 == _0x92 and _0x96 < _0x93 then _0x91,_0x92,_0x93=_0x8c,_0x95,_0x96 end end end end;_0x1f=false;if not _0x18 then return end;if _0x91 then _0x1e=true;_0x1b=false;_0x68.Text=__0x1f4d(28);_0x5f(_0x68,false);_0x86(_0x91);_0x76(__0x1f4d(29),_0x42) elseif not _0x90 then _0x76(__0x1f4d(30),_0x43) end end);_0x1e7=42 elseif _0x1e7 == 11 then _0x1f=true;_0x1e7=18 else break end end end;_0x1f3=2292 elseif _0x1f3 == 653 then _0x45.Visible=false;_0x1f3=662 elseif _0x1f3 == 1027 then _0x1ac=(27 + 0) * 1;_0x1f3=1034 elseif _0x1f3 == 2074 then _0x75=Instance.new(__0x1f4d(31));_0x1f3=2080 elseif _0x1f3 == 677 then do local _0x19f=579 end;_0x1f3=682 elseif _0x1f3 == 1710 then if false then local _0x1bd=nil end;_0x1f3=1720 elseif _0x1f3 == 445 then _0x199=math.random() * 0;_0x1f3=450 elseif _0x1f3 == 1480 then _0x6d.PlaceholderColor3=_0x41;_0x1f3=1485 elseif _0x1f3 == 2034 then _0x74.TextColor3=_0x41;_0x1f3=2042 elseif _0x1f3 == 1913 then _0x73.Size=UDim2.new(2 - 1,1 - 1,1 - 1,2 + 17);_0x1f3=1922 elseif _0x1f3 == 1053 then _0x4b.Text=__0x1f4d(32);_0x1f3=1062 elseif _0x1f3 == 2501 then _0x31(_0x4.CharacterAdded,function() if _0x1a then _0x9e() end end);_0x1f3=2511 elseif _0x1f3 == 912 then _0x4a=Instance.new(__0x1f4d(33));_0x1f3=919 elseif _0x1f3 == 1706 then _0x70.Text=__0x1f4d(34);_0x1f3=1710 elseif _0x1f3 == 2279 then _0x8e=function(_0x7a) local _0x64,_0x113;local _0x1e6=1;while true do if _0x1e6 == 26 then return 1 - 1 elseif _0x1e6 == 1 then _0x64=_0x8a(_0x7a.Name);_0x1e6=8 elseif _0x1e6 == 15 then _0x113=(1 + 0) * 1;_0x1e6=26 elseif _0x1e6 == 8 then if _0x64 == __0x1f4d(35) then local _0x112=(95 + 0) * 1;return 2 + 2 elseif string.find(_0x64,__0x1f4d(36),2 - 1,true) and string.find(_0x64,__0x1f4d(37),2 - 1,true) then return 31 + 19 - 47 elseif string.find(_0x64,__0x1f4d(38),2 - 1,true) and _0x8b(_0x7a,__0x1f4d(39)) then return 6 + 6 - 10 elseif _0x64 == __0x1f4d(40) then return 2 - 1 end;_0x1e6=15 else break end end end;_0x1f3=2287 elseif _0x1f3 == 708 then _0x47=Instance.new(__0x1f4d(41));_0x1f3=718 elseif _0x1f3 == 1990 then _0x74.Position=UDim2.fromOffset(1 - 1,31 + 300);_0x1f3=1996 elseif _0x1f3 == 946 then _0x4a.BackgroundTransparency=2 - 1;_0x1f3=954 elseif _0x1f3 == 2459 then _0x1d4=math.random() * 0;_0x1f3=2469 elseif _0x1f3 == 1303 then _0x6b=_0x63(__0x1f4d(42),__0x1f4d(43),50 + 152 - 34,12 * 3 + 0);_0x1f3=1310 elseif _0x1f3 == 250 then do local _0x192=444 end;_0x1f3=254 elseif _0x1f3 == 782 then _0x48.Size=UDim2.new(2 - 1,1 - 1,1 - 1,35 + 23);_0x1f3=788 elseif _0x1f3 == 1762 then do local _0x1bf=356 end;_0x1f3=1769 elseif _0x1f3 == 1591 then _0x6f.Position=UDim2.fromOffset(1 - 1,164 + 114 - 28);_0x1f3=1599 elseif _0x1f3 == 1257 then _0x67=_0x63(__0x1f4d(44),__0x1f4d(45),1 - 1,8 + 28);_0x1f3=1265 elseif _0x1f3 == 810 then _0x48.Parent=_0x45;_0x1f3=814 elseif _0x1f3 == 292 then _0x22=1 - 1;_0x1f3=295 elseif _0x1f3 == 982 then _0x4a.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=988 elseif _0x1f3 == 1604 then _0x6f.BackgroundTransparency=2 - 1;_0x1f3=1612 elseif _0x1f3 == 2180 then _0x76=function(_0x38,_0x61) _0x73.Text=__0x1f4d(46) .. _0x38;_0x73.TextColor3=_0x61 end;_0x1f3=2186 elseif _0x1f3 == 822 then Instance.new(__0x1f4d(47),_0x48).CornerRadius=UDim.new(1 - 1,23 + 8 - 19);_0x1f3=828 elseif _0x1f3 == 401 then if 1 > 2 then local _0x197=nil end;_0x1f3=411 elseif _0x1f3 == 1769 then _0x71.Size=UDim2.new(0.4,1 - 1,1 - 1,29 + 13 - 10);_0x1f3=1772 elseif _0x1f3 == 362 then if 1 > 2 then local _0x196=nil end;_0x1f3=369 elseif _0x1f3 == 1867 then _0x72.TextSize=22 + 7 - 18;_0x1f3=1872 elseif _0x1f3 == 563 then _0x44.IgnoreGuiInset=true;_0x1f3=571 elseif _0x1f3 == 2109 then _0x1cc=math.random() * 0;_0x1f3=2117 elseif _0x1f3 == 1387 then _0x6c.TextSize=5 * 2 + 0;_0x1f3=1395 elseif _0x1f3 == 2154 then _0x75.TextSize=5 + 4;_0x1f3=2161 elseif _0x1f3 == 22 then _0x0=game:GetService(__0x1f4d(48));_0x1f3=30 elseif _0x1f3 == 254 then _0x1e=false;_0x1f3=263 elseif _0x1f3 == 396 then _0x2f={};_0x1f3=401 elseif _0x1f3 == 884 then _0x49.Font=Enum.Font.GothamBold;_0x1f3=894 elseif _0x1f3 == 1829 then _0x72=Instance.new(__0x1f4d(49));_0x1f3=1835 elseif _0x1f3 == 1783 then _0x71.BackgroundTransparency=2 - 1;_0x1f3=1790 elseif _0x1f3 == 1628 then _0x6f.TextColor3=_0x41;_0x1f3=1632 elseif _0x1f3 == 2273 then _0x1d0=math.random() * 0;_0x1f3=2279 elseif _0x1f3 == 1731 then _0x62(_0x70);_0x1f3=1738 elseif _0x1f3 == 207 then _0x19=nil;_0x1f3=211 elseif _0x1f3 == 2126 then _0x1cd=(32 + 0) * 1;_0x1f3=2133 elseif _0x1f3 == 295 then _0x194=(90 + 0) * 1;_0x1f3=306 elseif _0x1f3 == 338 then _0x29=nil;_0x1f3=347 elseif _0x1f3 == 1248 then _0x63=function(_0x64,_0x38,_0x51,_0x65) local _0x66,_0xf3,_0xf4,_0xf5;local _0x1dd=1;while true do if _0x1dd == 59 then _0x66.TextSize=6 + 6;_0x1dd=68 elseif _0x1dd == 81 then _0xf5=math.random() * 0;_0x1dd=89 elseif _0x1dd == 29 then _0x66.Size=UDim2.new(2 - 1,1 - 1,1 - 1,_0x65);_0x1dd=38 elseif _0x1dd == 1 then _0x66=Instance.new(__0x1f4d(50));_0x1dd=12 elseif _0x1dd == 51 then _0xf4=(67 + 0) * 1;_0x1dd=59 elseif _0x1dd == 68 then _0x66.Parent=_0x5c;_0x1dd=72 elseif _0x1dd == 47 then _0x66.Text=_0x38;_0x1dd=51 elseif _0x1dd == 18 then _0x66.Name=_0x64;_0x1dd=26 elseif _0x1dd == 38 then _0xf3=(100 + 0) * 1;_0x1dd=47 elseif _0x1dd == 72 then _0x62(_0x66);_0x1dd=81 elseif _0x1dd == 12 then if 1 > 2 then local _0xf2=nil end;_0x1dd=18 elseif _0x1dd == 26 then _0x66.Position=UDim2.fromOffset(1 - 1,_0x51);_0x1dd=29 elseif _0x1dd == 89 then return _0x66 else break end end end;_0x1f3=1257 elseif _0x1f3 == 745 then _0x47.Parent=_0x45;_0x1f3=750 elseif _0x1f3 == 589 then _0x45.Name=__0x1f4d(51);_0x1f3=600 elseif _0x1f3 == 634 then if false then local _0x19e=nil end;_0x1f3=642 elseif _0x1f3 == 1011 then _0x4b=Instance.new(__0x1f4d(52));_0x1f3=1016 elseif _0x1f3 == 163 then _0x13,_0x14=26 + 15 - 37,86 + 3 - 9;_0x1f3=172 elseif _0x1f3 == 2487 then _0x31(_0x72.MouseButton1Click,function() _0xb5(_0x9) end);_0x1f3=2493 elseif _0x1f3 == 1461 then _0x6d.BorderSizePixel=1 - 1;_0x1f3=1465 elseif _0x1f3 == 137 then _0xf=true;_0x1f3=144 elseif _0x1f3 == 758 then _0x1a2=(11 + 0) * 1;_0x1f3=764 elseif _0x1f3 == 30 then _0x1=game:GetService(__0x1f4d(53));_0x1f3=40 elseif _0x1f3 == 1079 then _0x4b.Font=Enum.Font.GothamBold;_0x1f3=1090 elseif _0x1f3 == 625 then _0x45.BackgroundColor3=_0x3b;_0x1f3=634 elseif _0x1f3 == 2544 then task.spawn(function() local _0x7f,_0xe1=pcall(_0xbd);if not _0x7f then warn(__0x1f4d(54) .. tostring(_0xe1)) end;local _0xe2=_0x44:FindFirstChild(__0x1f4d(55));if _0xe2 then _0xe2:Destroy() end;if _0x18 then _0xb6() end end);_0x1f3=2549 elseif _0x1f3 == 1529 then Instance.new(__0x1f4d(56),_0x6d).CornerRadius=UDim.new(1 - 1,53 + 3 - 48);_0x1f3=1536 elseif _0x1f3 == 1395 then _0x6c.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=1402 elseif _0x1f3 == 919 then _0x4a.Position=UDim2.fromOffset(3 * 5 + 1,23 + 21 - 10);_0x1f3=925 elseif _0x1f3 == 1062 then do local _0x1ad=321 end;_0x1f3=1065 elseif _0x1f3 == 1551 then if 1 > 2 then local _0x1b7=nil end;_0x1f3=1556 elseif _0x1f3 == 1888 then _0x62(_0x72);_0x1f3=1895 elseif _0x1f3 == 647 then _0x45.Active=true;_0x1f3=653 elseif _0x1f3 == 1093 then _0x4b.TextSize=4 * 3 + 0;_0x1f3=1103 elseif _0x1f3 == 792 then _0x48.BackgroundColor3=_0x3c;_0x1f3=803 elseif _0x1f3 == 2024 then _0x74.Text=__0x1f4d(57);_0x1f3=2034 elseif _0x1f3 == 2342 then _0x9e=function(_0x9f,_0x61) local _0x125;local _0x1eb=1;while true do if _0x1eb == 66 then _0x84();_0x1eb=74 elseif _0x1eb == 80 then _0x1.MouseIconEnabled=true;_0x1eb=86 elseif _0x1eb == 45 then _0x125=math.random() * 0;_0x1eb=50 elseif _0x1eb == 37 then if _0x27 then do local _0x123=229 end;_0x27:Disconnect();_0x27=nil end;_0x1eb=45 elseif _0x1eb == 50 then pcall(function() _0x2:UnbindFromRenderStep(_0x30) end);_0x1eb=59 elseif _0x1eb == 99 then _0x5f(_0x69,false);_0x1eb=107 elseif _0x1eb == 74 then _0x1.MouseBehavior=Enum.MouseBehavior.Default;_0x1eb=80 elseif _0x1eb == 114 then if false then local _0x126=nil end;_0x1eb=133 elseif _0x1eb == 59 then table.clear(_0x2e);_0x1eb=66 elseif _0x1eb == 86 then _0x99();_0x1eb=94 elseif _0x1eb == 9 then if false then local _0x124=nil end;_0x1eb=16 elseif _0x1eb == 16 then _0x1a=false;_0x1eb=26 elseif _0x1eb == 107 then _0x76(_0x9f or __0x1f4d(58),_0x61 or _0x41);_0x1eb=114 elseif _0x1eb == 32 then if _0x26 then _0x26:Disconnect();_0x26=nil end;_0x1eb=37 elseif _0x1eb == 26 then _0x22=1 - 1;_0x1eb=32 elseif _0x1eb == 94 then _0x69.Text=__0x1f4d(59);_0x1eb=99 elseif _0x1eb == 1 then if not _0x1a then return end;_0x1eb=9 else break end end end;_0x1f3=2346 elseif _0x1f3 == 99 then if 1 > 2 then local _0x18e=nil end;_0x1f3=110 elseif _0x1f3 == 1513 then _0x6d.ClearTextOnFocus=false;_0x1f3=1523 elseif _0x1f3 == 1310 then _0x6b.TextSize=10 + 1;_0x1f3=1317 elseif _0x1f3 == 1359 then _0x6c.Text=__0x1f4d(60);_0x1f3=1369 elseif _0x1f3 == 836 then _0x49=Instance.new(__0x1f4d(61));_0x1f3=842 elseif _0x1f3 == 689 then do local _0x1a0=694 end;_0x1f3=698 elseif _0x1f3 == 828 then do local _0x1a6=373 end;_0x1f3=836 elseif _0x1f3 == 1523 then _0x6d.Parent=_0x5c;_0x1f3=1529 elseif _0x1f3 == 2138 then _0x75.TextColor3=_0x41;_0x1f3=2145 elseif _0x1f3 == 177 then _0x15=Enum.KeyCode.X;_0x1f3=183 elseif _0x1f3 == 227 then _0x191=(7 + 0) * 1;_0x1f3=232 elseif _0x1f3 == 2095 then _0x1cb=math.random() * 0;_0x1f3=2105 elseif _0x1f3 == 1647 then _0x6f.TextSize=1 * 7 + 3;_0x1f3=1653 elseif _0x1f3 == 80 then _0x6=18 + 66 - 24;_0x1f3=88 elseif _0x1f3 == 2536 then _0xbd=function() local _0xbe,_0xbf,_0xc0,_0xc1,_0x13c,_0x13e,_0x13f,_0xc2,_0xc7,_0x143,_0xc8,_0xc9,_0xca,_0xcb,_0x148,_0xcc,_0x14b,_0xcd,_0xce,_0x14e,_0x14f,_0x150,_0x151,_0xcf,_0x154,_0xd0,_0x156,_0xd1,_0xd2,_0x15b,_0xd3,_0xd4,_0xd5,_0xd6,_0x163,_0xd7,_0x166,_0x168,_0x169,_0xd8,_0x16c,_0xd9,_0xda,_0x16f,_0x171,_0xdb,_0x172,_0x173,_0x174,_0xdc,_0x175,_0xdd,_0xde,_0x17e,_0xdf,_0x17f,_0x180,_0x184,_0x185,_0x186,_0x188,_0x18a,_0xe0;local _0x1f2=2;while true do if _0x1f2 == 928 then _0xd2.BackgroundColor3=_0x3c;_0x1f2=932 elseif _0x1f2 == 2091 then if not _0x18 then return end;_0x1f2=2098 elseif _0x1f2 == 872 then do local _0x159=259 end;_0x1f2=876 elseif _0x1f2 == 444 then _0xcb.Parent=_0xc7;_0x1f2=451 elseif _0x1f2 == 1004 then _0xd4.Position=UDim2.fromOffset(38 + 28 - 50,1 + 11);_0x1f2=1012 elseif _0x1f2 == 1488 then _0x16f=math.random() * 0;_0x1f2=1492 elseif _0x1f2 == 309 then if false then local _0x144=nil end;_0x1f2=317 elseif _0x1f2 == 199 then _0xc2.Size=UDim2.fromScale(2 - 1,2 - 1);_0x1f2=208 elseif _0x1f2 == 883 then if false then local _0x15a=nil end;_0x1f2=893 elseif _0x1f2 == 1668 then if false then local _0x178=nil end;_0x1f2=1677 elseif _0x1f2 == 638 then _0x150=(77 + 0) * 1;_0x1f2=646 elseif _0x1f2 == 1450 then _0x31(_0xd7.MouseButton1Click,function() if _0xd9 then return end;_0xd9=true;if _0x37(_0x35) then _0xd7.Text=__0x1f4d(62) else _0xd6:CaptureFocus();_0xd6.CursorPosition=#_0x35 + (2 - 1);_0xd6.SelectionStart=2 - 1;_0xd7.Text=__0x1f4d(63) end;task.wait(1 + 1);if _0xd7.Parent then _0xd7.Text=__0x1f4d(64) end;_0xd9=false end);_0x1f2=1460 elseif _0x1f2 == 764 then _0xd0.Size=UDim2.fromScale(2 - 1,2 - 1);_0x1f2=773 elseif _0x1f2 == 297 then _0x143=math.random() * 0;_0x1f2=303 elseif _0x1f2 == 1467 then _0xda=Instance.new(__0x1f4d(65));_0x1f2=1473 elseif _0x1f2 == 976 then _0xd3.Thickness=1.5;_0x1f2=981 elseif _0x1f2 == 1383 then if 1 > 2 then local _0x16a=nil end;_0x1f2=1391 elseif _0x1f2 == 1250 then do local _0x164=459 end;_0x1f2=1255 elseif _0x1f2 == 996 then _0xd4=Instance.new(__0x1f4d(66));_0x1f2=1004 elseif _0x1f2 == 718 then _0xcf.BorderSizePixel=1 - 1;_0x1f2=726 elseif _0x1f2 == 502 then _0xcc.Font=Enum.Font.GothamBlack;_0x1f2=507 elseif _0x1f2 == 1173 then _0xd6=Instance.new(__0x1f4d(67));_0x1f2=1178 elseif _0x1f2 == 1100 then _0xd5.Size=UDim2.new(2 - 1,-(10 * 3 + 2),1 - 1,2 * 8 + 0);_0x1f2=1108 elseif _0x1f2 == 148 then _0xc1.BorderSizePixel=1 - 1;_0x1f2=157 elseif _0x1f2 == 544 then _0xcd=Instance.new(__0x1f4d(68));_0x1f2=551 elseif _0x1f2 == 95 then _0x13c=math.random() * 0;_0x1f2=100 elseif _0x1f2 == 1720 then _0xdc.ClipsDescendants=true;_0x1f2=1725 elseif _0x1f2 == 233 then _0xc2.Parent=_0xc0;_0x1f2=239 elseif _0x1f2 == 1482 then _0xda.Position=UDim2.new(0.5,1 - 1,1 - 1,68 * 5 + 0);_0x1f2=1488 elseif _0x1f2 == 961 then _0xd3=Instance.new(__0x1f4d(69));_0x1f2=970 elseif _0x1f2 == 583 then _0xce=Instance.new(__0x1f4d(70));_0x1f2=589 elseif _0x1f2 == 570 then _0xcd.Parent=_0xcc;_0x1f2=579 elseif _0x1f2 == 600 then _0xce.AnchorPoint=Vector2.new(0.5,1 - 1);_0x1f2=604 elseif _0x1f2 == 1697 then if 1 > 2 then local _0x179=nil end;_0x1f2=1705 elseif _0x1f2 == 348 then if 1 > 2 then local _0x146=nil end;_0x1f2=355 elseif _0x1f2 == 1184 then _0xd6.Size=UDim2.new(2 - 1,-(3 + 36 - 7),1 - 1,16 * 2 + 0);_0x1f2=1195 elseif _0x1f2 == 555 then if false then local _0x14c=nil end;_0x1f2=561 elseif _0x1f2 == 1279 then _0xd7=Instance.new(__0x1f4d(71));_0x1f2=1285 elseif _0x1f2 == 2118 then _0xca:Disconnect();_0x1f2=2132 elseif _0x1f2 == 1032 then _0xd4.Text=__0x1f4d(72);_0x1f2=1041 elseif _0x1f2 == 561 then _0xcd.Offset=Vector2.new(-(2 - 1),1 - 1);_0x1f2=570 elseif _0x1f2 == 1571 then _0xdb.BackgroundColor3=_0x3a;_0x1f2=1578 elseif _0x1f2 == 837 then _0xd1=Instance.new(__0x1f4d(73));_0x1f2=843 elseif _0x1f2 == 990 then _0xd3.Parent=_0xd2;_0x1f2=996 elseif _0x1f2 == 1814 then _0x31(_0xdc.MouseLeave,function() _0xb7(_0xdc,0.15,{BackgroundColor3=_0x3a}) end);_0x1f2=1825 elseif _0x1f2 == 143 then _0x13f=math.random() * 0;_0x1f2=148 elseif _0x1f2 == 1664 then _0xdc.BorderSizePixel=1 - 1;_0x1f2=1668 elseif _0x1f2 == 423 then _0xcb.TextTransparency=2 - 1;_0x1f2=432 elseif _0x1f2 == 1836 then _0x31(_0xdc.MouseButton1Click,function() _0xde=true end);_0x1f2=1843 elseif _0x1f2 == 1423 then _0x31(_0xd7.MouseLeave,function() _0xb7(_0xd7,0.15,{BackgroundColor3=_0x3a}) end);_0x1f2=1433 elseif _0x1f2 == 45 then _0xc0.BorderSizePixel=1 - 1;_0x1f2=50 elseif _0x1f2 == 390 then _0xcb.BackgroundTransparency=2 - 1;_0x1f2=395 elseif _0x1f2 == 264 then _0xc7.AnchorPoint=Vector2.new(0.5,0.5);_0x1f2=269 elseif _0x1f2 == 1795 then _0xdd.Parent=_0xdc;_0x1f2=1803 elseif _0x1f2 == 2098 then _0xb7(_0xc8,0.6,{Scale=_0xc8.Scale * 1.08},Enum.EasingStyle.Sine,Enum.EasingDirection.In);_0x1f2=2104 elseif _0x1f2 == 589 then if 1 > 2 then local _0x14d=nil end;_0x1f2=600 elseif _0x1f2 == 383 then _0xcb.Size=UDim2.new(2 - 1,1 - 1,1 - 1,1 * 10 + 8);_0x1f2=390 elseif _0x1f2 == 1734 then _0xdc.Visible=false;_0x1f2=1740 elseif _0x1f2 == 65 then _0xc0.GroupTransparency=2 - 1;_0x1f2=72 elseif _0x1f2 == 1041 then _0xd4.TextColor3=_0x40;_0x1f2=1047 elseif _0x1f2 == 1866 then _0x17f=math.random() * 0;_0x1f2=1874 elseif _0x1f2 == 283 then _0xc7.BackgroundTransparency=2 - 1;_0x1f2=289 elseif _0x1f2 == 16 then _0xc0=Instance.new(__0x1f4d(74));_0x1f2=23 elseif _0x1f2 == 2112 then _0xe0.Completed:Wait();_0x1f2=2118 elseif _0x1f2 == 124 then _0xc1.BackgroundColor3=_0x3a;_0x1f2=131 elseif _0x1f2 == 801 then _0xd0.TextTransparency=2 - 1;_0x1f2=810 elseif _0x1f2 == 624 then _0xce.Size=UDim2.fromOffset(1 - 1,2 + 1);_0x1f2=634 elseif _0x1f2 == 1522 then _0xda.Parent=_0xc7;_0x1f2=1530 elseif _0x1f2 == 157 then _0xc1.ZIndex=2 - 1;_0x1f2=165 elseif _0x1f2 == 970 then _0xd3.Color=_0x3a;_0x1f2=976 elseif _0x1f2 == 1262 then Instance.new(__0x1f4d(75),_0xd6).CornerRadius=UDim.new(1 - 1,8 + 0);_0x1f2=1269 elseif _0x1f2 == 82 then _0xc1=Instance.new(__0x1f4d(76));_0x1f2=86 elseif _0x1f2 == 317 then _0xc8=Instance.new(__0x1f4d(77));_0x1f2=325 elseif _0x1f2 == 1755 then _0xdd=Instance.new(__0x1f4d(78));_0x1f2=1760 elseif _0x1f2 == 1926 then if false then local _0x183=nil end;_0x1f2=1934 elseif _0x1f2 == 953 then Instance.new(__0x1f4d(79),_0xd2).CornerRadius=UDim.new(1 - 1,8 + 6);_0x1f2=961 elseif _0x1f2 == 1405 then Instance.new(__0x1f4d(80),_0xd7).CornerRadius=UDim.new(1 - 1,3 + 7 - 2);_0x1f2=1411 elseif _0x1f2 == 1888 then task.wait(0.5);_0x1f2=1891 elseif _0x1f2 == 8 then _0xbf=Color3.fromRGB(31 * 6 + 4,70 + 97 - 7,85 * 3 + 0);_0x1f2=16 elseif _0x1f2 == 2104 then _0xe0=_0xb7(_0xc0,0.6,{GroupTransparency=2 - 1},Enum.EasingStyle.Sine,Enum.EasingDirection.InOut);_0x1f2=2112 elseif _0x1f2 == 1502 then _0xda.BackgroundColor3=_0x3c;_0x1f2=1508 elseif _0x1f2 == 948 then _0xd2.Parent=_0xd1;_0x1f2=953 elseif _0x1f2 == 1074 then _0xd4.Parent=_0xd2;_0x1f2=1080 elseif _0x1f2 == 654 then _0xce.Parent=_0xc7;_0x1f2=659 elseif _0x1f2 == 1621 then _0xdc.AnchorPoint=Vector2.new(0.5,1 - 1);_0x1f2=1629 elseif _0x1f2 == 355 then _0xc9();_0x1f2=362 elseif _0x1f2 == 1535 then Instance.new(__0x1f4d(81),_0xda).CornerRadius=UDim.new(2 - 1,1 - 1);_0x1f2=1541 elseif _0x1f2 == 1473 then _0xda.AnchorPoint=Vector2.new(0.5,1 - 1);_0x1f2=1482 elseif _0x1f2 == 470 then if false then local _0x149=nil end;_0x1f2=481 elseif _0x1f2 == 1566 then _0x173=math.random() * 0;_0x1f2=1571 elseif _0x1f2 == 855 then if 1 > 2 then local _0x158=nil end;_0x1f2=864 elseif _0x1f2 == 395 then if 1 > 2 then local _0x147=nil end;_0x1f2=403 elseif _0x1f2 == 2062 then _0x3:Create(_0xdd,TweenInfo.new(0.9,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,-(2 - 1),true),{Transparency=0.85}):Play();_0x1f2=2070 elseif _0x1f2 == 23 then _0xc0.Name=__0x1f4d(82);_0x1f2=33 elseif _0x1f2 == 208 then _0xc2.BackgroundTransparency=2 - 1;_0x1f2=215 elseif _0x1f2 == 253 then if 1 > 2 then local _0x142=nil end;_0x1f2=264 elseif _0x1f2 == 761 then _0xd0=Instance.new(__0x1f4d(83));_0x1f2=764 elseif _0x1f2 == 1677 then _0xdc.Text="";_0x1f2=1684 elseif _0x1f2 == 1080 then _0xd5=Instance.new(__0x1f4d(84));_0x1f2=1087 elseif _0x1f2 == 226 then _0xc2.ZIndex=2 - 1;_0x1f2=233 elseif _0x1f2 == 1293 then _0xd7.Position=UDim2.fromOffset(11 + 5,27 + 93 - 22);_0x1f2=1297 elseif _0x1f2 == 325 then do local _0x145=380 end;_0x1f2=332 elseif _0x1f2 == 1914 then task.wait(0.15);_0x1f2=1921 elseif _0x1f2 == 659 then _0x151=math.random() * 0;_0x1f2=670 elseif _0x1f2 == 507 then if 1 > 2 then local _0x14a=nil end;_0x1f2=513 elseif _0x1f2 == 1370 then _0x169=(68 + 0) * 1;_0x1f2=1374 elseif _0x1f2 == 1508 then if false then local _0x170=nil end;_0x1f2=1513 elseif _0x1f2 == 1586 then _0x174=math.random() * 0;_0x1f2=1594 elseif _0x1f2 == 527 then _0x14b=(49 + 0) * 1;_0x1f2=536 elseif _0x1f2 == 341 then _0xc9=function() local _0x52=_0x44.AbsoluteSize;_0xc8.Scale=math.clamp(math.min(_0x52.X / (370 + 90),_0x52.Y / (34 + 395 - 9)),0.5,1.15) end;_0x1f2=348 elseif _0x1f2 == 33 then _0xc0.Size=UDim2.fromScale(2 - 1,2 - 1);_0x1f2=37 elseif _0x1f2 == 932 then _0xd2.BorderSizePixel=1 - 1;_0x1f2=939 elseif _0x1f2 == 1087 then if false then local _0x15f=nil end;_0x1f2=1096 elseif _0x1f2 == 829 then _0x156=math.random() * 0;_0x1f2=837 elseif _0x1f2 == 1353 then _0xd7.Font=Enum.Font.GothamBold;_0x1f2=1359 elseif _0x1f2 == 1803 then _0x31(_0xdc.MouseEnter,function() _0xb7(_0xdc,0.15,{BackgroundColor3=_0xd8}) end);_0x1f2=1809 elseif _0x1f2 == 1690 then _0xdc.Font=Enum.Font.GothamBold;_0x1f2=1697 elseif _0x1f2 == 72 then _0xc0.Parent=_0x44;_0x1f2=82 elseif _0x1f2 == 1881 then _0x180=(36 + 0) * 1;_0x1f2=1888 elseif _0x1f2 == 1957 then _0x185=(9 + 0) * 1;_0x1f2=1963 elseif _0x1f2 == 670 then Instance.new(__0x1f4d(85),_0xce).CornerRadius=UDim.new(2 - 1,1 - 1);_0x1f2=675 elseif _0x1f2 == 2013 then _0xb7(_0xdb,0.3,{BackgroundTransparency=2 - 1},Enum.EasingStyle.Sine);_0x1f2=2020 elseif _0x1f2 == 165 then _0xc1.Parent=_0xc0;_0x1f2=173 elseif _0x1f2 == 190 then _0xc2=Instance.new(__0x1f4d(86));_0x1f2=199 elseif _0x1f2 == 481 then _0xcc.BackgroundTransparency=2 - 1;_0x1f2=487 elseif _0x1f2 == 810 then _0xd0.Font=Enum.Font.GothamBlack;_0x1f2=813 elseif _0x1f2 == 1374 then _0xd7.AutoButtonColor=false;_0x1f2=1383 elseif _0x1f2 == 1130 then _0xd5.TextColor3=_0x41;_0x1f2=1139 elseif _0x1f2 == 1646 then _0xdc.BackgroundColor3=_0x3a;_0x1f2=1653 elseif _0x1f2 == 1236 then _0xd6.TextSize=9 + 3;_0x1f2=1244 elseif _0x1f2 == 2035 then _0x188=math.random() * 0;_0x1f2=2041 elseif _0x1f2 == 754 then _0x154=(17 + 0) * 1;_0x1f2=761 elseif _0x1f2 == 184 then _0x3:Create(_0xc1,TweenInfo.new(2.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,-(2 - 1),true),{Size=UDim2.fromOffset(448 + 7 - 35,255 + 180 - 15),BackgroundTransparency=0.95}):Play();_0x1f2=190 elseif _0x1f2 == 1492 then _0xda.Size=UDim2.fromOffset(2 + 258,3 + 1);_0x1f2=1502 elseif _0x1f2 == 1760 then do local _0x17b=410 end;_0x1f2=1767 elseif _0x1f2 == 898 then _0xd1.Parent=_0xc7;_0x1f2=905 elseif _0x1f2 == 2020 then do local _0x187=523 end;_0x1f2=2024 elseif _0x1f2 == 487 then _0xcc.Text=_0xbe;_0x1f2=493 elseif _0x1f2 == 730 then _0xcf.Parent=_0xc7;_0x1f2=740 elseif _0x1f2 == 1635 then _0xdc.Position=UDim2.new(0.5,1 - 1,1 - 1,36 * 9 + 6);_0x1f2=1641 elseif _0x1f2 == 222 then if 1 > 2 then local _0x141=nil end;_0x1f2=226 elseif _0x1f2 == 617 then _0x14f=math.random() * 0;_0x1f2=624 elseif _0x1f2 == 332 then _0xc8.Parent=_0xc7;_0x1f2=341 elseif _0x1f2 == 1906 then do local _0x182=31 end;_0x1f2=1914 elseif _0x1f2 == 1108 then _0xd5.BackgroundTransparency=2 - 1;_0x1f2=1115 elseif _0x1f2 == 1963 then _0xb7(_0xd0,0.4,{TextTransparency=1 - 1});_0x1f2=1971 elseif _0x1f2 == 611 then _0xce.Position=UDim2.new(0.5,1 - 1,1 - 1,67 + 23);_0x1f2=617 elseif _0x1f2 == 451 then _0xcc=Instance.new(__0x1f4d(87));_0x1f2=456 elseif _0x1f2 == 1809 then do local _0x17d=720 end;_0x1f2=1814 elseif _0x1f2 == 180 then if false then local _0x140=nil end;_0x1f2=184 elseif _0x1f2 == 1359 then _0xd7.TextSize=1 * 9 + 3;_0x1f2=1370 elseif _0x1f2 == 1943 then _0x184=(82 + 0) * 1;_0x1f2=1948 elseif _0x1f2 == 981 then _0xd3.Transparency=0.2;_0x1f2=990 elseif _0x1f2 == 788 then _0xd0.Text=__0x1f4d(88);_0x1f2=796 elseif _0x1f2 == 372 then _0xcb.Position=UDim2.new(1 - 1,1 - 1,1 - 1,-(7 + 3));_0x1f2=383 elseif _0x1f2 == 131 then _0x13e=(14 + 0) * 1;_0x1f2=136 elseif _0x1f2 == 851 then _0xd1.Position=UDim2.new(1 - 1,1 - 1,1 - 1,181 + 20 - 25);_0x1f2=855 elseif _0x1f2 == 86 then _0xc1.AnchorPoint=Vector2.new(0.5,0.5);_0x1f2=95 elseif _0x1f2 == 1313 then _0xd7.BackgroundColor3=_0x3a;_0x1f2=1319 elseif _0x1f2 == 136 then _0xc1.BackgroundTransparency=0.9;_0x1f2=143 elseif _0x1f2 == 513 then _0xcc.TextSize=16 + 34;_0x1f2=521 elseif _0x1f2 == 289 then _0xc7.ZIndex=26 + 17 - 41;_0x1f2=297 elseif _0x1f2 == 274 then _0xc7.Size=UDim2.fromOffset(48 + 372,194 + 196 - 20);_0x1f2=283 elseif _0x1f2 == 106 then if 1 > 2 then local _0x13d=nil end;_0x1f2=113 elseif _0x1f2 == 744 then Instance.new(__0x1f4d(89),_0xcf).CornerRadius=UDim.new(1 - 1,6 + 10);_0x1f2=754 elseif _0x1f2 == 1977 then _0xb7(_0xd1,0.7,{Position=UDim2.new(1 - 1,1 - 1,1 - 1,147 + 3),GroupTransparency=1 - 1});_0x1f2=1984 elseif _0x1f2 == 551 then _0xcd.Color=ColorSequence.new({ColorSequenceKeypoint.new(1 - 1,Purple),ColorSequenceKeypoint.new(0.5,Color3.fromRGB(63 * 4 + 3,75 + 180,59 + 196)),ColorSequenceKeypoint.new(2 - 1,Purple)});_0x1f2=555 elseif _0x1f2 == 1047 then if false then local _0x15d=nil end;_0x1f2=1055 elseif _0x1f2 == 1594 then _0xdb.Parent=_0xda;_0x1f2=1600 elseif _0x1f2 == 1433 then _0x16c=math.random() * 0;_0x1f2=1436 elseif _0x1f2 == 905 then _0xd2=Instance.new(__0x1f4d(90));_0x1f2=914 elseif _0x1f2 == 876 then _0xd1.BackgroundTransparency=2 - 1;_0x1f2=883 elseif _0x1f2 == 1150 then _0xd5.TextSize=11 + 0;_0x1f2=1158 elseif _0x1f2 == 1026 then _0xd4.BackgroundTransparency=2 - 1;_0x1f2=1032 elseif _0x1f2 == 2041 then _0xdc.Text=__0x1f4d(91);_0x1f2=2049 elseif _0x1f2 == 1391 then _0xd7.Parent=_0xd2;_0x1f2=1396 elseif _0x1f2 == 1653 then if 1 > 2 then local _0x177=nil end;_0x1f2=1664 elseif _0x1f2 == 691 then _0xcf.AnchorPoint=Vector2.new(0.5,1 - 1);_0x1f2=694 elseif _0x1f2 == 675 then _0xcf=Instance.new(__0x1f4d(92));_0x1f2=680 elseif _0x1f2 == 403 then _0xcb.Text=__0x1f4d(93);_0x1f2=409 elseif _0x1f2 == 493 then _0xcc.TextColor3=_0x40;_0x1f2=502 elseif _0x1f2 == 919 then _0xd2.Size=UDim2.new(2 - 1,-(4 + 10 - 10),2 - 1,-(4 + 0));_0x1f2=928 elseif _0x1f2 == 939 then _0x15b=math.random() * 0;_0x1f2=948 elseif _0x1f2 == 1347 then _0xd7.TextColor3=_0x40;_0x1f2=1353 elseif _0x1f2 == 1016 then if false then local _0x15c=nil end;_0x1f2=1026 elseif _0x1f2 == 702 then _0xcf.Size=UDim2.fromOffset(1 - 1,1 - 1);_0x1f2=712 elseif _0x1f2 == 893 then _0xd1.GroupTransparency=2 - 1;_0x1f2=898 elseif _0x1f2 == 694 then _0xcf.Position=UDim2.new(0.5,1 - 1,1 - 1,20 * 5 + 4);_0x1f2=702 elseif _0x1f2 == 362 then _0xca=_0x44:GetPropertyChangedSignal(__0x1f4d(94)):Connect(_0xc9);_0x1f2=369 elseif _0x1f2 == 1396 then if 1 > 2 then local _0x16b=nil end;_0x1f2=1405 elseif _0x1f2 == 1115 then do local _0x160=609 end;_0x1f2=1124 elseif _0x1f2 == 2049 then _0xdc.Visible=true;_0x1f2=2052 elseif _0x1f2 == 2073 then repeat task.wait() until _0xde or not _0x18;_0x1f2=2081 elseif _0x1f2 == 1684 then _0xdc.TextColor3=_0x40;_0x1f2=1690 elseif _0x1f2 == 1221 then _0xd6.TextColor3=_0xbf;_0x1f2=1229 elseif _0x1f2 == 1216 then _0xd6.Text=_0x35;_0x1f2=1221 elseif _0x1f2 == 1891 then if 1 > 2 then local _0x181=nil end;_0x1f2=1898 elseif _0x1f2 == 456 then _0xcc.Position=UDim2.new(1 - 1,1 - 1,1 - 1,56 + 5 - 39);_0x1f2=467 elseif _0x1f2 == 215 then _0xc2.ClipsDescendants=true;_0x1f2=222 elseif _0x1f2 == 2024 then task.wait(0.2);_0x1f2=2035 elseif _0x1f2 == 1825 then _0xde=false;_0x1f2=1829 elseif _0x1f2 == 1629 then if false then local _0x176=nil end;_0x1f2=1635 elseif _0x1f2 == 1874 then _0xb7(_0xcb,0.7,{Position=UDim2.new(1 - 1,1 - 1,1 - 1,1 - 1),TextTransparency=1 - 1});_0x1f2=1881 elseif _0x1f2 == 1921 then for _0xc3=2 - 1,#_0xbe do local _0x13b=(5 + 0) * 1;if not _0x18 then return end;_0xcc.MaxVisibleGraphemes=_0xc3;task.wait(0.055) end;_0x1f2=1926 elseif _0x1f2 == 1055 then _0xd4.Font=Enum.Font.GothamBold;_0x1f2=1059 elseif _0x1f2 == 173 then Instance.new(__0x1f4d(95),_0xc1).CornerRadius=UDim.new(2 - 1,1 - 1);_0x1f2=180 elseif _0x1f2 == 1269 then _0x31(_0xd6:GetPropertyChangedSignal(__0x1f4d(96)),function() if _0xd6.Text ~= _0x35 then _0xd6.Text=_0x35 end end);_0x1f2=1279 elseif _0x1f2 == 60 then _0xc0.ZIndex=6 * 8 + 2;_0x1f2=65 elseif _0x1f2 == 536 then _0xcc.Parent=_0xc7;_0x1f2=544 elseif _0x1f2 == 409 then _0x148=(83 + 0) * 1;_0x1f2=415 elseif _0x1f2 == 1285 then if 1 > 2 then local _0x165=nil end;_0x1f2=1293 elseif _0x1f2 == 113 then _0xc1.Size=UDim2.fromOffset(310 + 56 - 26,131 + 209);_0x1f2=124 elseif _0x1f2 == 269 then _0xc7.Position=UDim2.fromScale(0.5,0.5);_0x1f2=274 elseif _0x1f2 == 712 then _0xcf.BackgroundColor3=_0x3a;_0x1f2=718 elseif _0x1f2 == 1208 then _0xd6.BorderSizePixel=1 - 1;_0x1f2=1216 elseif _0x1f2 == 2052 then _0xb7(_0xdc,0.45,{Size=UDim2.fromOffset(62 + 179 - 41,5 * 7 + 3)},Enum.EasingStyle.Back,Enum.EasingDirection.Out);_0x1f2=2062 elseif _0x1f2 == 1787 then if 1 > 2 then local _0x17c=nil end;_0x1f2=1795 elseif _0x1f2 == 1898 then _0xb7(_0xce,0.6,{Size=UDim2.fromOffset(30 + 230,17 + 2 - 16)});_0x1f2=1906 elseif _0x1f2 == 1856 then _0xdf=_0xb7(_0xdb,3.6,{Size=UDim2.fromScale(2 - 1,2 - 1)},Enum.EasingStyle.Sine,Enum.EasingDirection.InOut);_0x1f2=1866 elseif _0x1f2 == 1713 then _0xdc.AutoButtonColor=false;_0x1f2=1720 elseif _0x1f2 == 1948 then _0xb7(_0xcf,0.5,{Size=UDim2.fromOffset(46 + 50,17 + 15)},Enum.EasingStyle.Back,Enum.EasingDirection.Out);_0x1f2=1957 elseif _0x1f2 == 1641 then _0xdc.Size=UDim2.fromOffset(1 - 1,1 - 1);_0x1f2=1646 elseif _0x1f2 == 1178 then _0xd6.Position=UDim2.fromOffset(4 + 26 - 14,37 + 21);_0x1f2=1184 elseif _0x1f2 == 467 then _0xcc.Size=UDim2.new(2 - 1,1 - 1,1 - 1,20 * 3 + 0);_0x1f2=470 elseif _0x1f2 == 1012 then _0xd4.Size=UDim2.new(2 - 1,-(17 + 15),1 - 1,6 + 14);_0x1f2=1016 elseif _0x1f2 == 634 then _0xce.BackgroundColor3=_0x3a;_0x1f2=638 elseif _0x1f2 == 1444 then if 1 > 2 then local _0x16d=nil end;_0x1f2=1450 elseif _0x1f2 == 822 then _0xd0.Parent=_0xcf;_0x1f2=829 elseif _0x1f2 == 740 then if false then local _0x153=nil end;_0x1f2=744 elseif _0x1f2 == 1059 then _0xd4.TextSize=6 + 20 - 12;_0x1f2=1066 elseif _0x1f2 == 1297 then _0xd7.Size=UDim2.new(2 - 1,-(18 + 60 - 46),1 - 1,4 + 28);_0x1f2=1306 elseif _0x1f2 == 1600 then Instance.new(__0x1f4d(97),_0xdb).CornerRadius=UDim.new(2 - 1,1 - 1);_0x1f2=1606 elseif _0x1f2 == 1164 then if false then local _0x162=nil end;_0x1f2=1173 elseif _0x1f2 == 843 then if 1 > 2 then local _0x157=nil end;_0x1f2=851 elseif _0x1f2 == 1306 then _0x166=math.random() * 0;_0x1f2=1313 elseif _0x1f2 == 1096 then _0xd5.Position=UDim2.fromOffset(28 + 13 - 25,3 * 10 + 3);_0x1f2=1100 elseif _0x1f2 == 2006 then _0x186=math.random() * 0;_0x1f2=2013 elseif _0x1f2 == 50 then _0xc0.Active=true;_0x1f2=60 elseif _0x1f2 == 415 then _0xcb.TextColor3=_0x41;_0x1f2=423 elseif _0x1f2 == 1333 then _0xd7.Text=__0x1f4d(98);_0x1f2=1341 elseif _0x1f2 == 239 then for _0xc3=2 - 1,2 * 9 + 0 do task.spawn(function() local _0xc4=Random.new(_0xc3 * (344 + 645 - 12));local _0xc5=Instance.new(__0x1f4d(99));local _0x53=_0xc4:NextInteger(2 + 1,2 * 3 + 1);_0xc5.Size=UDim2.fromOffset(_0x53,_0x53);_0xc5.BackgroundColor3=_0xc3 % (3 + 15 - 15) == 1 - 1 and _0xbf or _0x3a;_0xc5.BackgroundTransparency=2 - 1;_0xc5.BorderSizePixel=1 - 1;Instance.new(__0x1f4d(100),_0xc5).CornerRadius=UDim.new(2 - 1,1 - 1);_0xc5.Parent=_0xc2;task.wait(_0xc4:NextNumber(1 - 1,2.5));while _0x18 and _0xc0.Parent ~= nil do local _0x50=_0xc4:NextNumber(0.02,0.98);local _0xc6=_0xc4:NextNumber(2 + 5 - 3,17 + 28 - 37);_0xc5.Position=UDim2.new(_0x50,1 - 1,1.05,1 - 1);_0xc5.BackgroundTransparency=2 - 1;_0xb7(_0xc5,_0xc6,{Position=UDim2.new(_0x50 + _0xc4:NextNumber(-0.06,0.06),1 - 1,-0.05,1 - 1)},Enum.EasingStyle.Linear);_0xb7(_0xc5,_0xc6 * 0.2,{BackgroundTransparency=0.4},Enum.EasingStyle.Sine);task.delay(_0xc6 * 0.75,function() if _0xc5.Parent then _0xb7(_0xc5,_0xc6 * 0.25,{BackgroundTransparency=2 - 1},Enum.EasingStyle.Sine) end end);task.wait(_0xc6) end end);if false then local _0x13a=nil end end;_0x1f2=250 elseif _0x1f2 == 1705 then _0xdc.TextSize=2 + 11;_0x1f2=1713 elseif _0x1f2 == 1853 then task.wait(0.35);_0x1f2=1856 elseif _0x1f2 == 1934 then task.wait(0.1);_0x1f2=1943 elseif _0x1f2 == 1460 then if 1 > 2 then local _0x16e=nil end;_0x1f2=1467 elseif _0x1f2 == 1139 then do local _0x161=506 end;_0x1f2=1146 elseif _0x1f2 == 1767 then _0xdd.Color=Color3.fromRGB(115 * 2 + 0,71 * 3 + 2,42 * 6 + 3);_0x1f2=1774 elseif _0x1f2 == 813 then _0xd0.TextSize=9 + 7;_0x1f2=822 elseif _0x1f2 == 864 then _0xd1.Size=UDim2.new(2 - 1,1 - 1,1 - 1,151 + 5 - 6);_0x1f2=872 elseif _0x1f2 == 726 then _0xcf.ClipsDescendants=true;_0x1f2=730 elseif _0x1f2 == 1843 then _0xb7(_0xc0,0.5,{GroupTransparency=1 - 1},Enum.EasingStyle.Sine);_0x1f2=1853 elseif _0x1f2 == 1744 then Instance.new(__0x1f4d(101),_0xdc).CornerRadius=UDim.new(1 - 1,3 + 8 - 1);_0x1f2=1755 elseif _0x1f2 == 773 then _0xd0.BackgroundTransparency=2 - 1;_0x1f2=779 elseif _0x1f2 == 1725 then if 1 > 2 then local _0x17a=nil end;_0x1f2=1734 elseif _0x1f2 == 779 then do local _0x155=147 end;_0x1f2=788 elseif _0x1f2 == 2 then _0xbe=__0x1f4d(102);_0x1f2=8 elseif _0x1f2 == 2070 then if false then local _0x189=nil end;_0x1f2=2073 elseif _0x1f2 == 1530 then _0x171=math.random() * 0;_0x1f2=1535 elseif _0x1f2 == 1411 then _0xd8=Color3.fromRGB(24 * 7 + 2,33 + 87,73 + 182);_0x1f2=1416 elseif _0x1f2 == 1436 then _0xd9=false;_0x1f2=1444 elseif _0x1f2 == 1244 then _0xd6.ClearTextOnFocus=false;_0x1f2=1250 elseif _0x1f2 == 1416 then _0x31(_0xd7.MouseEnter,function() _0xb7(_0xd7,0.15,{BackgroundColor3=_0xd8}) end);_0x1f2=1423 elseif _0x1f2 == 914 then _0xd2.Position=UDim2.fromOffset(21 + 2 - 21,17 + 9 - 24);_0x1f2=919 elseif _0x1f2 == 1829 then _0x17e=math.random() * 0;_0x1f2=1836 elseif _0x1f2 == 1066 then do local _0x15e=831 end;_0x1f2=1074 elseif _0x1f2 == 1255 then _0xd6.Parent=_0xd2;_0x1f2=1262 elseif _0x1f2 == 1229 then _0xd6.Font=Enum.Font.GothamBold;_0x1f2=1236 elseif _0x1f2 == 579 then _0x3:Create(_0xcd,TweenInfo.new(2.2,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut,-(2 - 1)),{Offset=Vector2.new(2 - 1,1 - 1)}):Play();_0x1f2=583 elseif _0x1f2 == 303 then _0xc7.Parent=_0xc0;_0x1f2=309 elseif _0x1f2 == 604 then _0x14e=math.random() * 0;_0x1f2=611 elseif _0x1f2 == 1199 then _0xd6.BackgroundColor3=_0x3d;_0x1f2=1208 elseif _0x1f2 == 521 then _0xcc.MaxVisibleGraphemes=1 - 1;_0x1f2=527 elseif _0x1f2 == 646 then _0xce.BorderSizePixel=1 - 1;_0x1f2=654 elseif _0x1f2 == 1341 then _0x168=(92 + 0) * 1;_0x1f2=1347 elseif _0x1f2 == 1996 then _0xb7(_0xda,0.3,{BackgroundTransparency=2 - 1},Enum.EasingStyle.Sine);_0x1f2=2006 elseif _0x1f2 == 1781 then _0xdd.Transparency=0.2;_0x1f2=1787 elseif _0x1f2 == 1124 then _0xd5.Text=__0x1f4d(103);_0x1f2=1130 elseif _0x1f2 == 1195 then _0x163=math.random() * 0;_0x1f2=1199 elseif _0x1f2 == 1557 then _0xdb.Size=UDim2.fromScale(1 - 1,2 - 1);_0x1f2=1566 elseif _0x1f2 == 369 then _0xcb=Instance.new(__0x1f4d(104));_0x1f2=372 elseif _0x1f2 == 1548 then _0x172=(51 + 0) * 1;_0x1f2=1557 elseif _0x1f2 == 1740 then _0xdc.Parent=_0xc7;_0x1f2=1744 elseif _0x1f2 == 1971 then task.wait(0.35);_0x1f2=1977 elseif _0x1f2 == 1158 then _0xd5.Parent=_0xd2;_0x1f2=1164 elseif _0x1f2 == 1146 then _0xd5.Font=Enum.Font.Gotham;_0x1f2=1150 elseif _0x1f2 == 680 then if false then local _0x152=nil end;_0x1f2=691 elseif _0x1f2 == 1319 then _0xd7.BorderSizePixel=1 - 1;_0x1f2=1327 elseif _0x1f2 == 1578 then _0xdb.BorderSizePixel=1 - 1;_0x1f2=1586 elseif _0x1f2 == 37 then _0xc0.BackgroundColor3=Color3.fromRGB(7 + 5 - 4,4 * 2 + 0,13 + 1);_0x1f2=45 elseif _0x1f2 == 250 then _0xc7=Instance.new(__0x1f4d(105));_0x1f2=253 elseif _0x1f2 == 796 then _0xd0.TextColor3=_0x40;_0x1f2=801 elseif _0x1f2 == 1984 then _0xdf.Completed:Wait();_0x1f2=1992 elseif _0x1f2 == 1327 then do local _0x167=738 end;_0x1f2=1333 elseif _0x1f2 == 1513 then _0xda.BorderSizePixel=1 - 1;_0x1f2=1522 elseif _0x1f2 == 439 then _0xcb.TextSize=6 * 2 + 1;_0x1f2=444 elseif _0x1f2 == 2081 then _0x18a=(1 + 0) * 1;_0x1f2=2091 elseif _0x1f2 == 1541 then _0xdb=Instance.new(__0x1f4d(106));_0x1f2=1548 elseif _0x1f2 == 100 then _0xc1.Position=UDim2.new(0.5,1 - 1,0.5,-(26 + 64));_0x1f2=106 elseif _0x1f2 == 1992 then if not _0x18 then return end;_0x1f2=1996 elseif _0x1f2 == 1774 then _0xdd.Thickness=1.5;_0x1f2=1781 elseif _0x1f2 == 432 then _0xcb.Font=Enum.Font.GothamBold;_0x1f2=439 elseif _0x1f2 == 1612 then _0x175=math.random() * 0;_0x1f2=1621 elseif _0x1f2 == 1606 then _0xdc=Instance.new(__0x1f4d(107));_0x1f2=1612 else break end end end;_0x1f3=2544 elseif _0x1f3 == 2168 then _0x75.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=2172 elseif _0x1f3 == 2117 then _0x75.BackgroundTransparency=2 - 1;_0x1f3=2126 elseif _0x1f3 == 1369 then _0x6c.TextColor3=_0x41;_0x1f3=1376 elseif _0x1f3 == 2399 then _0xb2=_0x63(__0x1f4d(108),__0x1f4d(109),41 * 9 + 3,25 + 7);_0x1f3=2404 elseif _0x1f3 == 1475 then _0x6d.PlaceholderText=__0x1f4d(110);_0x1f3=1480 elseif _0x1f3 == 1202 then _0x5c.Size=UDim2.new(2 - 1,-(23 + 5),2 - 1,-(23 + 57));_0x1f3=1206 elseif _0x1f3 == 954 then _0x4a.Text=__0x1f4d(111);_0x1f3=962 elseif _0x1f3 == 277 then if 1 > 2 then local _0x193=nil end;_0x1f3=282 elseif _0x1f3 == 1110 then _0x4b.Parent=_0x48;_0x1f3=1114 elseif _0x1f3 == 460 then _0x19a=math.random() * 0;_0x1f3=465 elseif _0x1f3 == 1006 then if 1 > 2 then local _0x1ab=nil end;_0x1f3=1011 elseif _0x1f3 == 600 then _0x45.Size=UDim2.fromOffset(254 + 46,62 * 8 + 0);_0x1f3=603 elseif _0x1f3 == 93 then _0xa=28 * 6 + 2;_0x1f3=99 elseif _0x1f3 == 865 then _0x49.BackgroundTransparency=2 - 1;_0x1f3=872 elseif _0x1f3 == 1618 then do local _0x1b9=447 end;_0x1f3=1628 elseif _0x1f3 == 698 then _0x46.Parent=_0x45;_0x1f3=704 elseif _0x1f3 == 2367 then if false then local _0x1d2=nil end;_0x1f3=2375 elseif _0x1f3 == 60 then _0x4=_0x0.LocalPlayer;_0x1f3=67 elseif _0x1f3 == 1793 then _0x71.Text=tostring(_0x6);_0x1f3=1802 elseif _0x1f3 == 1725 then _0x70.Parent=_0x5c;_0x1f3=1731 elseif _0x1f3 == 1278 then _0x6a=_0x63(__0x1f4d(112),__0x1f4d(113),101 + 75 - 50,23 + 13);_0x1f3=1283 elseif _0x1f3 == 1354 then _0x6c.BackgroundTransparency=2 - 1;_0x1f3=1359 elseif _0x1f3 == 1485 then _0x6d.TextColor3=_0x40;_0x1f3=1493 elseif _0x1f3 == 313 then _0x24,_0x25=1 - 1,1 - 1;_0x1f3=320 elseif _0x1f3 == 2196 then _0x79=function(_0x7a) local _0x7b;local _0x1df=4;while true do if _0x1df == 10 then while _0x7b and _0x7b ~= workspace do do local _0xfd=992 end;if _0x7b:IsA(__0x1f4d(114)) and _0x7b:FindFirstChildOfClass(__0x1f4d(115)) then return true end;local _0xfe=(13 + 0) * 1;_0x7b=_0x7b.Parent;if false then local _0xff=nil end end;_0x1df=16 elseif _0x1df == 16 then return false elseif _0x1df == 4 then _0x7b=_0x7a;_0x1df=10 else break end end end;_0x1f3=2199 elseif _0x1f3 == 1178 then _0x31(_0x44:GetPropertyChangedSignal(__0x1f4d(116)),function() local _0x5b=_0x45.AbsolutePosition;local _0x50,_0x51=_0x4f(_0x5b.X,_0x5b.Y);_0x45.Position=UDim2.fromOffset(_0x50,_0x51) end);_0x1f3=1186 elseif _0x1f3 == 1424 then _0x6d.Name=__0x1f4d(117);_0x1f3=1431 elseif _0x1f3 == 2423 then _0x31(_0x6d.Focused,function() _0x6e.Transparency=1 - 1 end);_0x1f3=2432 elseif _0x1f3 == 17 then do local _0x18b=144 end;_0x1f3=22 elseif _0x1f3 == 374 then _0x2c=nil;_0x1f3=380 elseif _0x1f3 == 729 then _0x47.Thickness=1.5;_0x1f3=736 elseif _0x1f3 == 2409 then _0x31(_0xb2.MouseButton1Click,function() if _0x37(_0x35) then _0x76(__0x1f4d(118),_0x42) else _0x76(__0x1f4d(119),_0x43) end end);_0x1f3=2416 elseif _0x1f3 == 1996 then _0x1c7=(81 + 0) * 1;_0x1f3=2006 elseif _0x1f3 == 240 then _0x1d=false;_0x1f3=250 elseif _0x1f3 == 1583 then _0x6f=Instance.new(__0x1f4d(120));_0x1f3=1591 elseif _0x1f3 == 2186 then _0x77=function(_0x78) local _0xf8,_0xfa,_0xfb,_0xfc;local _0x1de=4;while true do if _0x1de == 86 then _0x29.Parent=_0x44;_0x1de=95 elseif _0x1de == 40 then _0x29.FillColor=_0x3a;_0x1de=46 elseif _0x1de == 60 then _0xfa=(77 + 0) * 1;_0x1de=64 elseif _0x1de == 82 then _0xfb=math.random() * 0;_0x1de=86 elseif _0x1de == 53 then _0x29.FillTransparency=.8;_0x1de=60 elseif _0x1de == 24 then if 1 > 2 then local _0xf9=nil end;_0x1de=29 elseif _0x1de == 29 then _0x29.Adornee=_0x78;_0x1de=40 elseif _0x1de == 4 then if _0x29 then if 1 > 2 then local _0xf6=nil end;_0x29:Destroy();do local _0xf7=943 end;_0x29=nil end;_0x1de=12 elseif _0x1de == 18 then _0x29=Instance.new(__0x1f4d(121));_0x1de=24 elseif _0x1de == 46 then _0x29.OutlineColor=Color3.fromRGB(52 + 158,27 + 153,64 + 191);_0x1de=53 elseif _0x1de == 95 then _0xfc=math.random() * 0;_0x1de=114 elseif _0x1de == 12 then _0xf8=math.random() * 0;_0x1de=18 elseif _0x1de == 74 then _0x29.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop;_0x1de=82 elseif _0x1de == 64 then _0x29.OutlineTransparency=1 - 1;_0x1de=74 else break end end end;_0x1f3=2196 elseif _0x1f3 == 764 then _0x48.Name=__0x1f4d(122);_0x1f3=775 elseif _0x1f3 == 848 then if 1 > 2 then local _0x1a7=nil end;_0x1f3=855 elseif _0x1f3 == 2263 then _0x8b=function(_0x8c,_0x8d) local _0x7b;local _0x1e5=2;while true do if _0x1e5 == 22 then while _0x7b and _0x7b ~= workspace do if string.find(_0x8a(_0x7b.Name),_0x8d,2 - 1,true) then return true end;_0x7b=_0x7b.Parent end;_0x1e5=30 elseif _0x1e5 == 2 then if false then local _0x110=nil end;_0x1e5=8 elseif _0x1e5 == 30 then return false elseif _0x1e5 == 8 then _0x7b=_0x8c.Parent;_0x1e5=16 elseif _0x1e5 == 16 then do local _0x111=819 end;_0x1e5=22 else break end end end;_0x1f3=2273 elseif _0x1f3 == 1206 then _0x5c.BackgroundTransparency=2 - 1;_0x1f3=1215 elseif _0x1f3 == 2042 then _0x74.Font=Enum.Font.Gotham;_0x1f3=2046 elseif _0x1f3 == 437 then _0x36=false;_0x1f3=445 elseif _0x1f3 == 1632 then _0x1ba=(25 + 0) * 1;_0x1f3=1639 elseif _0x1f3 == 2013 then _0x1c8=(97 + 0) * 1;_0x1f3=2017 elseif _0x1f3 == 1536 then _0x6e=Instance.new(__0x1f4d(123));_0x1f3=1542 elseif _0x1f3 == 543 then _0x44=Instance.new(__0x1f4d(124));_0x1f3=549 elseif _0x1f3 == 2105 then _0x75.Size=UDim2.new(2 - 1,1 - 1,1 - 1,6 + 13 - 5);_0x1f3=2109 elseif _0x1f3 == 620 then do local _0x19d=670 end;_0x1f3=625 elseif _0x1f3 == 1244 then _0x62(_0x4b);_0x1f3=1248 elseif _0x1f3 == 1297 then _0x5f(_0x6a,true,_0x3a);_0x1f3=1303 elseif _0x1f3 == 803 then _0x48.BorderSizePixel=1 - 1;_0x1f3=810 elseif _0x1f3 == 2531 then _0xb7=function(_0x8c,_0xb8,_0xb9,_0xba,_0xbb) local _0xbc;local _0x1f1=4;while true do if _0x1f1 == 22 then return _0xbc elseif _0x1f1 == 4 then _0xbc=_0x3:Create(_0x8c,TweenInfo.new(_0xb8,_0xba or Enum.EasingStyle.Quint,_0xbb or Enum.EasingDirection.Out),_0xb9);_0x1f1=10 elseif _0x1f1 == 10 then if 1 > 2 then local _0x139=nil end;_0x1f1=18 elseif _0x1f1 == 18 then _0xbc:Play();_0x1f1=22 else break end end end;_0x1f3=2536 elseif _0x1f3 == 2145 then _0x75.Font=Enum.Font.Gotham;_0x1f3=2154 elseif _0x1f3 == 2255 then _0x8a=function(_0x38) if false then local _0x10f=nil end;return string.lower(_0x38):gsub(__0x1f4d(125),"") end;_0x1f3=2263 elseif _0x1f3 == 4 then if _G.KeylessHub then if 1 > 2 then local _0xe3=nil end;return end;_0x1f3=10 elseif _0x1f3 == 878 then _0x49.TextColor3=_0x40;_0x1f3=884 elseif _0x1f3 == 2384 then _0x31(_0x6a.MouseButton1Click,function() _0x1c=not _0x1c;_0x6a.Text=_0x1c and __0x1f4d(126) or __0x1f4d(127);_0x5f(_0x6a,_0x1c,_0x3a);_0x76(_0x1c and __0x1f4d(128) or __0x1f4d(129),_0x1c and _0x42 or _0x41) end);_0x1f3=2389 elseif _0x1f3 == 1580 then _0x6e.Parent=_0x6d;_0x1f3=1583 elseif _0x1f3 == 962 then _0x4a.TextColor3=_0x3a;_0x1f3=969 elseif _0x1f3 == 925 then if 1 > 2 then local _0x1a8=nil end;_0x1f3=936 elseif _0x1f3 == 1744 then _0x71=Instance.new(__0x1f4d(130));_0x1f3=1751 elseif _0x1f3 == 941 then _0x1a9=math.random() * 0;_0x1f3=946 elseif _0x1f3 == 1090 then if 1 > 2 then local _0x1af=nil end;_0x1f3=1093 elseif _0x1f3 == 1720 then _0x70.TextSize=24 + 5 - 18;_0x1f3=1725 elseif _0x1f3 == 1265 then _0x68=_0x63(__0x1f4d(131),__0x1f4d(132),33 + 13 - 4,18 + 18);_0x1f3=1272 elseif _0x1f3 == 1142 then _0x4f=function(_0x50,_0x51) local _0x52,_0x53,_0x54,_0xe8,_0x55;local _0x1d8=5;while true do if _0x1d8 == 5 then _0x52=_0x44.AbsoluteSize;_0x1d8=12 elseif _0x1d8 == 22 then _0xe8=math.random() * 0;_0x1d8=33 elseif _0x1d8 == 12 then _0x53=_0x45.AbsoluteSize;_0x1d8=18 elseif _0x1d8 == 33 then _0x55=math.max(1 - 1,_0x52.Y - _0x53.Y);_0x1d8=38 elseif _0x1d8 == 38 then return math.clamp(_0x50,1 - 1,_0x54),math.clamp(_0x51,1 - 1,_0x55) elseif _0x1d8 == 18 then _0x54=math.max(1 - 1,_0x52.X - _0x53.X);_0x1d8=22 else break end end end;_0x1f3=1150 elseif _0x1f3 == 71 then _0x5=_0x4:GetMouse();_0x1f3=80 elseif _0x1f3 == 1157 then for _0x58,_0x59 in ipairs({Header,Title,Subtitle}) do _0x31(_0x59.InputBegan,_0x56) end;_0x1f3=1165 elseif _0x1f3 == 666 then _0x46=Instance.new(__0x1f4d(133));_0x1f3=677 elseif _0x1f3 == 1963 then do local _0x1c6=437 end;_0x1f3=1968 elseif _0x1f3 == 1191 then _0x5c.Position=UDim2.fromOffset(10 + 4,38 + 55 - 24);_0x1f3=1202 elseif _0x1f3 == 1431 then _0x6d.Position=UDim2.new(0.55,42 + 4 - 42,1 - 1,209 + 1);_0x1f3=1436 elseif _0x1f3 == 530 then _0x42=Color3.fromRGB(89 + 10 - 9,184 + 69 - 28,29 * 5 + 0);_0x1f3=535 elseif _0x1f3 == 1542 then _0x6e.Color=_0x3a;_0x1f3=1551 elseif _0x1f3 == 1436 then _0x6d.Size=UDim2.new(0.45,-(2 + 2),1 - 1,12 + 18);_0x1f3=1445 elseif _0x1f3 == 1034 then _0x4b.Size=UDim2.fromOffset(39 + 13 - 26,3 * 7 + 5);_0x1f3=1037 elseif _0x1f3 == 1500 then _0x6d.Font=Enum.Font.GothamBold;_0x1f3=1510 elseif _0x1f3 == 2432 then _0x31(_0x6d.FocusLost,function() _0x6e.Transparency=0.6 end);_0x1f3=2440 elseif _0x1f3 == 1802 then _0x71.TextColor3=_0x40;_0x1f3=1810 elseif _0x1f3 == 211 then _0x1a=false;_0x1f3=221 elseif _0x1f3 == 157 then _0x12=14 + 0;_0x1f3=163 elseif _0x1f3 == 1220 then _0x5d=function(_0x5e) local _0x1da=1;while true do if _0x1da == 9 then if _0x5e:GetAttribute(__0x1f4d(134)) then local _0xeb=math.random() * 0;return _0x5e:GetAttribute(__0x1f4d(135)) or _0x3a end;_0x1da=16 elseif _0x1da == 26 then return _0x3d elseif _0x1da == 16 then if 1 > 2 then local _0xed=nil end;_0x1da=26 elseif _0x1da == 1 then if false then local _0xec=nil end;_0x1da=9 else break end end end;_0x1f3=1230 elseif _0x1f3 == 2207 then _0x7d=function(_0x78) local _0x102,_0x7e,_0x7f,_0x80;local _0x1e0=1;while true do if _0x1e0 == 57 then if _0x7f then for _0x58,_0x7a in ipairs(_0x80) do if 1 > 2 then local _0x101=nil end;if _0x7a ~= _0x78 and (_0x79(_0x7a) or _0x7a:FindFirstAncestorOfClass(__0x1f4d(136))) then if false then local _0x100=nil end;return __0x1f4d(137) end end end;_0x1e0=64 elseif _0x1e0 == 15 then if 1 > 2 then local _0x103=nil end;_0x1e0=26 elseif _0x1e0 == 10 then if _0x78.Anchored then return __0x1f4d(138) end;_0x1e0=15 elseif _0x1e0 == 30 then if _0x7e and _0x7e.Anchored then return __0x1f4d(139) end;_0x1e0=36 elseif _0x1e0 == 1 then _0x102=(3 + 0) * 1;_0x1e0=10 elseif _0x1e0 == 26 then _0x7e=_0x78.AssemblyRootPart;_0x1e0=30 elseif _0x1e0 == 43 then if 1 > 2 then local _0x104=nil end;_0x1e0=52 elseif _0x1e0 == 64 then return nil elseif _0x1e0 == 52 then _0x7f,_0x80=pcall(_0x78.GetConnectedParts,_0x78,true);_0x1e0=57 elseif _0x1e0 == 36 then if _0x79(_0x78) or _0x78:FindFirstAncestorOfClass(__0x1f4d(140)) then return __0x1f4d(141) end;_0x1e0=43 else break end end end;_0x1f3=2216 elseif _0x1f3 == 2224 then _0x84=function() local _0x10a,_0x85,_0x83;local _0x1e2=1;while true do if _0x1e2 == 45 then if _0x83 and _0x83.Parent then do local _0x107=275 end;_0x83.WalkSpeed=_0x85.WalkSpeed;_0x83.JumpPower=_0x85.JumpPower;do local _0x108=866 end;_0x83.JumpHeight=_0x85.JumpHeight;local _0x109=(51 + 0) * 1;_0x83.AutoRotate=_0x85.AutoRotate end;_0x1e2=51 elseif _0x1e2 == 40 then _0x83=_0x85.Humanoid;_0x1e2=45 elseif _0x1e2 == 29 then if _0x85.Root and _0x85.Root.Parent then local _0x106=(24 + 0) * 1;_0x85.Root.Anchored=_0x85.Anchored end;_0x1e2=40 elseif _0x1e2 == 16 then _0x28=nil;_0x1e2=22 elseif _0x1e2 == 8 then _0x85=_0x28;_0x1e2=16 elseif _0x1e2 == 51 then if false then local _0x10b=nil end;_0x1e2=66 elseif _0x1e2 == 22 then if not _0x85 then return end;_0x1e2=29 elseif _0x1e2 == 1 then _0x10a=math.random() * 0;_0x1e2=8 else break end end end;_0x1f3=2230 elseif _0x1f3 == 1688 then _0x70.Size=UDim2.new(0.3,-(1 * 4 + 0),1 - 1,16 * 2 + 0);_0x1f3=1697 elseif _0x1f3 == 704 then Instance.new(__0x1f4d(142),_0x45).CornerRadius=UDim.new(1 - 1,33 + 3 - 24);_0x1f3=708 elseif _0x1f3 == 2549 then print(__0x1f4d(143));_0x1f3=2574 elseif _0x1f3 == 144 then _0x10=16 + 4;_0x1f3=150 elseif _0x1f3 == 2389 then _0x31(_0x6b.MouseButton1Click,function() _0x1d=not _0x1d;_0x6b.Text=_0x1d and __0x1f4d(144) or __0x1f4d(145);_0x5f(_0x6b,_0x1d,_0x3a);_0x76(_0x1d and __0x1f4d(146) or __0x1f4d(147),_0x1d and _0x42 or _0x41) end);_0x1f3=2399 elseif _0x1f3 == 2216 then _0x81=function() local _0x82,_0x83,_0x7e;local _0x1e1=2;while true do if _0x1e1 == 22 then _0x7e=_0x82 and _0x82:FindFirstChild(__0x1f4d(148));_0x1e1=29 elseif _0x1e1 == 89 then _0x7e.AssemblyAngularVelocity=Vector3.zero;_0x1e1=93 elseif _0x1e1 == 93 then _0x7e.Anchored=true;_0x1e1=117 elseif _0x1e1 == 47 then _0x83.WalkSpeed=1 - 1;_0x1e1=50 elseif _0x1e1 == 2 then if not _0xe then return end;_0x1e1=10 elseif _0x1e1 == 50 then _0x83.JumpPower=1 - 1;_0x1e1=60 elseif _0x1e1 == 10 then _0x82=_0x4.Character;_0x1e1=17 elseif _0x1e1 == 60 then _0x83.JumpHeight=1 - 1;_0x1e1=64 elseif _0x1e1 == 79 then do local _0x105=834 end;_0x1e1=89 elseif _0x1e1 == 64 then _0x83.AutoRotate=false;_0x1e1=75 elseif _0x1e1 == 38 then _0x28={Humanoid=_0x83,Root=_0x7e,WalkSpeed=_0x83.WalkSpeed,JumpPower=_0x83.JumpPower,JumpHeight=_0x83.JumpHeight,AutoRotate=_0x83.AutoRotate,Anchored=_0x7e.Anchored};_0x1e1=47 elseif _0x1e1 == 17 then _0x83=_0x82 and _0x82:FindFirstChildOfClass(__0x1f4d(149));_0x1e1=22 elseif _0x1e1 == 29 then if not _0x83 or not _0x7e then return end;_0x1e1=38 elseif _0x1e1 == 75 then _0x7e.AssemblyLinearVelocity=Vector3.zero;_0x1e1=79 else break end end end;_0x1f3=2224 elseif _0x1f3 == 122 then _0xc,_0xd=0.1,3 * 9 + 3;_0x1f3=128 elseif _0x1f3 == 353 then _0x2a=nil;_0x1f3=362 elseif _0x1f3 == 282 then _0x21=1 - 1;_0x1f3=292 elseif _0x1f3 == 1376 then if 1 > 2 then local _0x1b3=nil end;_0x1f3=1380 elseif _0x1f3 == 1186 then _0x5c=Instance.new(__0x1f4d(150));_0x1f3=1191 elseif _0x1f3 == 1556 then _0x6e.Thickness=2 - 1;_0x1f3=1562 elseif _0x1f3 == 484 then _0x3d=Color3.fromRGB(10 + 62 - 33,5 * 7 + 4,6 * 9 + 0);_0x1f3=495 elseif _0x1f3 == 1976 then _0x73.Parent=_0x5c;_0x1f3=1986 elseif _0x1f3 == 936 then _0x4a.Size=UDim2.new(2 - 1,-(55 + 0),1 - 1,14 + 0);_0x1f3=941 elseif _0x1f3 == 1065 then _0x4b.TextColor3=_0x40;_0x1f3=1075 elseif _0x1f3 == 1215 then _0x5c.Parent=_0x45;_0x1f3=1220 elseif _0x1f3 == 320 then _0x26=nil;_0x1f3=327 elseif _0x1f3 == 2416 then _0x31(_0x6d.FocusLost,function() local _0xb3=tonumber(_0x6d.Text);if _0xb3 then _0xb=math.clamp(_0xb3,_0xc,_0xd);_0x76(__0x1f4d(151) .. tostring(_0xb) .. __0x1f4d(152),_0x42) else _0x76(__0x1f4d(153) .. tostring(_0xb) .. __0x1f4d(154),_0x43) end;_0x6d.Text=tostring(_0xb) end);_0x1f3=2423 elseif _0x1f3 == 1986 then _0x74=Instance.new(__0x1f4d(155));_0x1f3=1990 elseif _0x1f3 == 613 then _0x45.Position=UDim2.new(0.5,-(25 * 6 + 0),0.5,-(89 + 186 - 27));_0x1f3=620 elseif _0x1f3 == 1922 then _0x73.BackgroundTransparency=2 - 1;_0x1f3=1929 elseif _0x1f3 == 1878 then _0x1c3=math.random() * 0;_0x1f3=1888 elseif _0x1f3 == 1044 then _0x4b.BorderSizePixel=1 - 1;_0x1f3=1053 elseif _0x1f3 == 1858 then _0x72.Text=__0x1f4d(156);_0x1f3=1867 elseif _0x1f3 == 718 then _0x47.Color=_0x3a;_0x1f3=722 elseif _0x1f3 == 872 then _0x49.Text=__0x1f4d(157);_0x1f3=878 elseif _0x1f3 == 583 then _0x45=Instance.new(__0x1f4d(158));_0x1f3=589 elseif _0x1f3 == 2133 then _0x75.Text=__0x1f4d(159);_0x1f3=2138 elseif _0x1f3 == 474 then _0x3b=Color3.fromRGB(2 * 7 + 1,4 + 11,11 + 12);_0x1f3=478 elseif _0x1f3 == 1132 then _0x4d=nil;_0x1f3=1139 elseif _0x1f3 == 495 then if 1 > 2 then local _0x19b=nil end;_0x1f3=498 elseif _0x1f3 == 908 then _0x49.Parent=_0x48;_0x1f3=912 elseif _0x1f3 == 267 then _0x20=false;_0x1f3=277 elseif _0x1f3 == 1174 then _0x31(_0x1.InputEnded,function(_0x57) if _0x57.UserInputType == Enum.UserInputType.MouseButton1 or _0x57.UserInputType == Enum.UserInputType.Touch then _0x4c=false end end);_0x1f3=1178 elseif _0x1f3 == 465 then _0x3a=Color3.fromRGB(81 + 64,11 + 88 - 14,122 + 133);_0x1f3=474 elseif _0x1f3 == 603 then if false then local _0x19c=nil end;_0x1f3=613 elseif _0x1f3 == 2062 then _0x74.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=2069 elseif _0x1f3 == 2237 then _0x31(_0x68.MouseButton1Click,function() if _0x1a then return end;_0x1b=not _0x1b;_0x68.Text=_0x1b and __0x1f4d(160) or __0x1f4d(161);_0x5f(_0x68,_0x1b,_0x3a);if _0x1b then _0x76(__0x1f4d(162),_0x42) else _0x76(__0x1f4d(163),_0x41) end end);_0x1f3=2244 elseif _0x1f3 == 788 then if 1 > 2 then local _0x1a4=nil end;_0x1f3=792 elseif _0x1f3 == 46 then if false then local _0x18c=nil end;_0x1f3=51 elseif _0x1f3 == 1835 then if 1 > 2 then local _0x1c2=nil end;_0x1f3=1845 elseif _0x1f3 == 450 then _0x37=function(_0x38) local _0x39;local _0x1d7=2;while true do if _0x1d7 == 2 then if 1 > 2 then local _0xe6=nil end;_0x1d7=10 elseif _0x1d7 == 17 then if typeof(_0x39) ~= __0x1f4d(164) then local _0xe5=math.random() * 0;return false end;_0x1d7=26 elseif _0x1d7 == 10 then _0x39=setclipboard or toclipboard;_0x1d7=17 elseif _0x1d7 == 31 then return pcall(_0x39,_0x38) elseif _0x1d7 == 26 then do local _0xe7=411 end;_0x1d7=31 else break end end end;_0x1f3=460 elseif _0x1f3 == 571 then _0x44.DisplayOrder=50 * 2 + 0;_0x1f3=578 elseif _0x1f3 == 193 then _0x17=1 + 3 - 2;_0x1f3=201 elseif _0x1f3 == 1845 then _0x72.Position=UDim2.new(0.7,31 + 20 - 47,1 - 1,203 + 67);_0x1f3=1850 elseif _0x1f3 == 2511 then _0x31(_0x4b.MouseButton1Click,function() _0x44:Destroy() end);_0x1f3=2514 elseif _0x1f3 == 1823 then _0x71.Parent=_0x5c;_0x1f3=1829 elseif _0x1f3 == 67 then if false then local _0x18d=nil end;_0x1f3=71 elseif _0x1f3 == 478 then _0x3c=Color3.fromRGB(39 + 2 - 16,22 + 40 - 37,3 * 10 + 7);_0x1f3=484 elseif _0x1f3 == 1569 then _0x6e.Transparency=0.6;_0x1f3=1580 elseif _0x1f3 == 1419 then _0x6d=Instance.new(__0x1f4d(165));_0x1f3=1424 elseif _0x1f3 == 128 then _0xe=true;_0x1f3=137 elseif _0x1f3 == 1639 then _0x6f.Font=Enum.Font.GothamBold;_0x1f3=1647 elseif _0x1f3 == 642 then _0x45.BorderSizePixel=1 - 1;_0x1f3=647 elseif _0x1f3 == 347 then if false then local _0x195=nil end;_0x1f3=353 elseif _0x1f3 == 977 then _0x4a.TextSize=5 + 4;_0x1f3=982 elseif _0x1f3 == 369 then _0x2b=nil;_0x1f3=374 elseif _0x1f3 == 1935 then _0x73.TextColor3=_0x41;_0x1f3=1943 elseif _0x1f3 == 1909 then _0x73.Position=UDim2.fromOffset(1 - 1,311 + 1);_0x1f3=1913 elseif _0x1f3 == 51 then _0x3=game:GetService(__0x1f4d(166));_0x1f3=60 elseif _0x1f3 == 900 then _0x49.TextXAlignment=Enum.TextXAlignment.Left;_0x1f3=908 elseif _0x1f3 == 2355 then _0xa1=function() local _0xa2,_0x12d,_0x12e,_0x98,_0xa3,_0x83,_0x132,_0xa4;local _0x1ed=4;while true do if _0x1ed == 226 then _0xa4=1 - 1;_0x1ed=233 elseif _0x1ed == 32 then if _0xa2 then _0x76(_0xa2,_0x43);local _0x12a=(88 + 0) * 1;return end;_0x1ed=40 elseif _0x1ed == 184 then _0x2:BindToRenderStep(_0x30,Enum.RenderPriority.Camera.Value + (2 - 1),_0x9c);_0x1ed=190 elseif _0x1ed == 171 then _0x98.CameraType=Enum.CameraType.Scriptable;_0x1ed=177 elseif _0x1ed == 10 then if _0x1a then _0x9e();if false then local _0x128=nil end;return end;_0x1ed=15 elseif _0x1ed == 15 then if not _0x7c() then do local _0x129=802 end;_0x76(__0x1f4d(167),_0x43);return end;_0x1ed=22 elseif _0x1ed == 60 then _0x12d=math.random() * 0;_0x1ed=67 elseif _0x1ed == 131 then _0x22=1 - 1;_0x1ed=136 elseif _0x1ed == 152 then _0x81();_0x1ed=156 elseif _0x1ed == 85 then if false then local _0x12f=nil end;_0x1ed=96 elseif _0x1ed == 72 then _0x12e=math.random() * 0;_0x1ed=82 elseif _0x1ed == 50 then _0x68.Text=__0x1f4d(168);_0x1ed=60 elseif _0x1ed == 22 then _0xa2=_0x7d(_0x19);_0x1ed=32 elseif _0x1ed == 233 then _0x26=_0x2.Heartbeat:Connect(function(_0xa5) if not _0x7c() then _0x9e(__0x1f4d(169),_0x43);return end;CCheckTimer=_0xa4 + _0xa5;if _0x19.Anchored or _0xa4 >= 0.05 then _0xa4=1 - 1;local _0xa6=_0x7d(_0x19);if _0xa6 then _0x9e(_0xa6 .. __0x1f4d(170),_0x43);return end end;local _0xa7=workspace.CurrentCamera;if not _0xa7 then return end;local _0x5b=_0x19.Position;local _0xa8=_0x19.AssemblyLinearVelocity;if os.clock() < _0x22 then _0x23=_0x5b.Y;_0x19.AssemblyLinearVelocity=_0xa7.CFrame.LookVector * _0xa;return end;if _0x2e.W then local _0xa9=_0xa7.CFrame.LookVector;if not _0xf then _0xa9=Vector3.new(_0xa9.X,1 - 1,_0xa9.Z);if _0xa9.Magnitude > 1 - 1 then _0xa9=_0xa9.Unit end end;_0x23=_0x5b.Y;local _0xaa=2 - 1 - math.exp(-_0xa5 * (14 + 0));_0x19.AssemblyLinearVelocity=_0xa8:Lerp(_0xa9 * _0x6,_0xaa) else local _0xaa=2 - 1 - math.exp(-_0xa5 * (2 * 6 + 2));local _0xab=Vector3.new(_0xa8.X,1 - 1,_0xa8.Z):Lerp(Vector3.zero,_0xaa);local _0xac=math.clamp((_0x23 - _0x5b.Y) * _0x10,-(10 * 6 + 0),8 * 7 + 4);_0x19.AssemblyLinearVelocity=Vector3.new(_0xab.X,_0xac,_0xab.Z) end end);_0x1ed=255 elseif _0x1ed == 141 then _0x6d:ReleaseFocus();_0x1ed=152 elseif _0x1ed == 215 then _0x132=(27 + 0) * 1;_0x1ed=221 elseif _0x1ed == 199 then if false then local _0x131=nil end;_0x1ed=206 elseif _0x1ed == 96 then _0xa3=_0x98.CFrame.LookVector;_0x1ed=103 elseif _0x1ed == 103 then _0x24=math.atan2(-_0xa3.X,-_0xa3.Z);_0x1ed=107 elseif _0x1ed == 107 then if false then local _0x130=nil end;_0x1ed=114 elseif _0x1ed == 67 then _0x5f(_0x68,false);_0x1ed=72 elseif _0x1ed == 114 then _0x25=math.asin(math.clamp(_0xa3.Y,-(2 - 1),2 - 1));_0x1ed=121 elseif _0x1ed == 190 then _0x69.Text=__0x1f4d(171);_0x1ed=199 elseif _0x1ed == 136 then _0x1a=true;_0x1ed=141 elseif _0x1ed == 40 then if not _0x97() then return end;_0x1ed=45 elseif _0x1ed == 4 then if false then local _0x12c=nil end;_0x1ed=10 elseif _0x1ed == 206 then _0x5f(_0x69,true,_0x3f);_0x1ed=215 elseif _0x1ed == 177 then _0x1.MouseIconEnabled=false;_0x1ed=184 elseif _0x1ed == 156 then _0x83=_0x28 and _0x28.Humanoid;_0x1ed=164 elseif _0x1ed == 164 then if _0x83 then _0x27=_0x83.Died:Connect(function() _0x9e(__0x1f4d(172),_0x43) end);local _0x12b=(34 + 0) * 1 end;_0x1ed=171 elseif _0x1ed == 121 then _0x23=_0x19.Position.Y;_0x1ed=131 elseif _0x1ed == 82 then _0x98=workspace.CurrentCamera;_0x1ed=85 elseif _0x1ed == 221 then _0x76(__0x1f4d(173),_0x42);_0x1ed=226 elseif _0x1ed == 45 then _0x1b=false;_0x1ed=50 else break end end end;_0x1f3=2361 elseif _0x1f3 == 1738 then if 1 > 2 then local _0x1be=nil end;_0x1f3=1744 elseif _0x1f3 == 682 then _0x46.Scale=2 - 1;_0x1f3=689 elseif _0x1f3 == 969 then _0x4a.Font=Enum.Font.GothamBold;_0x1f3=977 elseif _0x1f3 == 750 then _0x48=Instance.new(__0x1f4d(174));_0x1f3=758 elseif _0x1f3 == 722 then _0x1a1=(2 + 0) * 1;_0x1f3=729 elseif _0x1f3 == 330 then _0x28=nil;_0x1f3=338 elseif _0x1f3 == 2522 then _0xb6=function() local _0x1f0=2;while true do if _0x1f0 == 12 then if false then local _0x137=nil end;_0x1f0=16 elseif _0x1f0 == 2 then if _0x36 then local _0x136=math.random() * 0;return end;_0x1f0=12 elseif _0x1f0 == 16 then _0x36=true;_0x1f0=23 elseif _0x1f0 == 51 then if false then local _0x138=nil end;_0x1f0=70 elseif _0x1f0 == 33 then _0x46.Scale=0.85;_0x1f0=37 elseif _0x1f0 == 23 then _0x45.Visible=true;_0x1f0=33 elseif _0x1f0 == 47 then _0x76(__0x1f4d(175),_0x42);_0x1f0=51 elseif _0x1f0 == 37 then _0x3:Create(_0x46,TweenInfo.new(0.45,Enum.EasingStyle.Back,Enum.EasingDirection.Out),{Scale=2 - 1}):Play();_0x1f0=47 else break end end end;_0x1f3=2531 elseif _0x1f3 == 201 then _0x18=true;_0x1f3=207 elseif _0x1f3 == 1291 then _0x1b0=math.random() * 0;_0x1f3=1297 elseif _0x1f3 == 498 then _0x3e=Color3.fromRGB(47 + 26 - 16,5 * 8 + 5,11 * 7 + 5);_0x1f3=505 elseif _0x1f3 == 411 then _0x30=__0x1f4d(176);_0x1f3=417 elseif _0x1f3 == 2046 then if 1 > 2 then local _0x1c9=nil end;_0x1f3=2055 elseif _0x1f3 == 2346 then _0xa0=function() local _0x127;local _0x1ec=1;while true do if _0x1ec == 9 then _0x127=(73 + 0) * 1;_0x1ec=15 elseif _0x1ec == 1 then _0x22=os.clock() + _0xb;_0x1ec=9 elseif _0x1ec == 15 then _0x76(__0x1f4d(177),_0x42);_0x1ec=35 else break end end end;_0x1f3=2355 elseif _0x1f3 == 88 then _0x7,_0x8,_0x9=44 + 3 - 37,88 + 162,5 + 17 - 12;_0x1f3=93 elseif _0x1f3 == 2493 then _0x31(_0x70.MouseButton1Click,function() _0xb5(-_0x9) end);_0x1f3=2501 elseif _0x1f3 == 1402 then _0x6c.Parent=_0x5c;_0x1f3=1412 elseif _0x1f3 == 2006 then _0x74.Size=UDim2.new(2 - 1,1 - 1,1 - 1,5 * 3 + 1);_0x1f3=2013 elseif _0x1f3 == 2315 then _0x99=function() local _0x98,_0x11a,_0x9a,_0x11d;local _0x1e9=5;while true do if _0x1e9 == 40 then if false then local _0x11b=nil end;_0x1e9=47 elseif _0x1e9 == 32 then if _0x2c then _0x98.CFrame=_0x2c end;_0x1e9=40 elseif _0x1e9 == 107 then _0x11d=math.random() * 0;_0x1e9=113 elseif _0x1e9 == 87 then _0x2a=nil;_0x1e9=96 elseif _0x1e9 == 78 then do local _0x11c=706 end;_0x1e9=87 elseif _0x1e9 == 47 then if _0x2d then _0x98.Focus=_0x2d end;_0x1e9=54 elseif _0x1e9 == 59 then if not _0x9a or not _0x9a.Parent then local _0x9b=_0x4.Character;if false then local _0x119=nil end;_0x9a=_0x9b and _0x9b:FindFirstChildOfClass(__0x1f4d(178)) end;_0x1e9=68 elseif _0x1e9 == 5 then _0x98=workspace.CurrentCamera;_0x1e9=12 elseif _0x1e9 == 54 then _0x9a=_0x2a;_0x1e9=59 elseif _0x1e9 == 71 then _0x98.CameraType=_0x2b or Enum.CameraType.Custom;_0x1e9=78 elseif _0x1e9 == 113 then _0x2d=nil;_0x1e9=136 elseif _0x1e9 == 16 then if not _0x98 then if 1 > 2 then local _0x118=nil end;return end;_0x1e9=22 elseif _0x1e9 == 96 then _0x2b=nil;_0x1e9=100 elseif _0x1e9 == 68 then _0x98.CameraSubject=_0x9a;_0x1e9=71 elseif _0x1e9 == 12 then _0x11a=math.random() * 0;_0x1e9=16 elseif _0x1e9 == 100 then _0x2c=nil;_0x1e9=107 elseif _0x1e9 == 22 then _0x98.CameraType=Enum.CameraType.Scriptable;_0x1e9=32 else break end end end;_0x1f3=2319 elseif _0x1f3 == 894 then _0x49.TextSize=9 * 2 + 0;_0x1f3=900 elseif _0x1f3 == 221 then _0x1b=false;_0x1f3=227 elseif _0x1f3 == 1272 then _0x69=_0x63(__0x1f4d(179),__0x1f4d(180),29 + 93 - 38,47 + 7 - 18);_0x1f3=1278 else break end end
+--[[
+    KEYLESS HUB
+    Version 1.6
+    Discord: https://discord.gg/VaNyVR2Zwk
+    Standalone LocalScript
+
+    AUTO SELECT BALL (BETA):  Finds the "Ball Hitbox" part for you.
+    SELECT BALL:              Click SELECT, then click a ball manually.
+    AUTO CONTROL ON RELEASE:  Hold + release Mouse Button 1 (anywhere on
+                              screen, not on the UI) and the ball is
+                              controlled automatically.
+    INSTA GOAL:               When ON, hold + release Mouse Button 1 and the
+                              ball shoots forward (where you're looking) at
+                              high speed. The duration is editable in the
+                              FORWARD TIME box (press Enter to apply).
+    STOP:                     X or ESC, or the STOP button.
+                              Control also stops by itself if the ball
+                              gets attached (to a player/tool) or anchored.
+
+    BODY:                     Your character is frozen in place while you
+                              control the ball and released when you stop.
+
+    CONTROLS:
+        W          - Fly forward in the direction you're looking
+        MOUSE      - Aim / turn (shiftlock style, mouse is locked)
+        MOUSEWHEEL - Camera zoom
+        (ball hovers in the air when you let go of W)
+
+    UI:
+        Drag the header to move the window.
+        RightShift hides / shows the window.
+
+    NOTE: Movement sets velocity from the client, so it only works
+    when your client has network ownership of the ball.
+]]
+
+if _G.KeylessHub then return end
+_G.KeylessHub = true
+
+-- SERVICES
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+local Player = Players.LocalPlayer
+local Mouse = Player:GetMouse()
+
+-- SETTINGS
+
+local Speed = 60
+local MinSpeed, MaxSpeed, SpeedStep = 10, 250, 10
+
+local InstaGoalSpeed = 170     -- ball speed during Insta Goal
+local InstaGoalTime = 2        -- default seconds the Insta Goal push lasts (editable in the UI)
+local MinDashTime, MaxDashTime = 0.1, 30
+
+local FreezeBodyWhileControlling = true
+
+local FlyAlongLook = true      -- true: W follows camera pitch too. false: W stays level.
+local HoverGain = 20           -- how hard the ball holds its altitude
+local CameraSensitivity = 0.0035
+local CamDistance = 14
+local MinZoom, MaxZoom = 4, 80
+local StopKey = Enum.KeyCode.X
+local ToggleUIKey = Enum.KeyCode.RightShift
+local AutoStartWait = 2        -- seconds to wait for the ball to detach after releasing M1
+
+-- STATE
+
+local Alive = true
+
+local SelectedBall = nil
+local Controlling = false
+local Selecting = false
+local AutoControl = true
+local InstaGoal = false
+local AutoTracking = false
+local Scanning = false
+local Holding = false
+local AutoStartToken = 0
+
+local DashUntil = 0
+local HoverY = 0
+local Yaw, Pitch = 0, 0
+
+local MovementConnection
+local DiedConnection
+local FrozenState
+local Highlight
+
+local SavedCameraSubject
+local SavedCameraType
+local SavedCameraCFrame
+local SavedCameraFocus
+
+local Keys = {}
+local Connections = {}
+
+local CAMERA_BIND = "KeylessHubCamera"
+
+local function Connect(signal, callback)
+    local conn = signal:Connect(callback)
+    table.insert(Connections, conn)
+    return conn
+end
+
+local DiscordLink = "https://discord.gg/VaNyVR2Zwk"
+local IntroDone = false
+
+-- Copies text to the clipboard when the executor supports it. Returns true on success.
+local function CopyToClipboard(text)
+    local setter = setclipboard or toclipboard
+    if typeof(setter) ~= "function" then
+        return false
+    end
+    return (pcall(setter, text))
+end
+
+-- COLORS
+
+local Purple = Color3.fromRGB(145, 85, 255)
+local Background = Color3.fromRGB(15, 15, 23)
+local Panel = Color3.fromRGB(25, 25, 37)
+local ButtonColor = Color3.fromRGB(39, 39, 54)
+local HoverColor = Color3.fromRGB(57, 45, 82)
+local StopColor = Color3.fromRGB(110, 45, 65)
+local White = Color3.fromRGB(245, 245, 255)
+local Muted = Color3.fromRGB(145, 145, 165)
+local Green = Color3.fromRGB(90, 225, 145)
+local Red = Color3.fromRGB(255, 100, 110)
+
+-- GUI
+
+local GUI = Instance.new("ScreenGui")
+GUI.Name = "Keyless Hub"
+GUI.ResetOnSpawn = false
+GUI.IgnoreGuiInset = true
+GUI.DisplayOrder = 100
+GUI.Parent = Player:WaitForChild("PlayerGui")
+
+local Main = Instance.new("Frame")
+Main.Name = "Main"
+Main.Size = UDim2.fromOffset(300, 496)
+Main.Position = UDim2.new(0.5, -150, 0.5, -248)
+Main.BackgroundColor3 = Background
+Main.BorderSizePixel = 0
+Main.Active = true -- sinks input so clicks on the window never reach the world
+Main.Visible = false -- revealed after the intro
+Main.Parent = GUI
+
+local MainScale = Instance.new("UIScale")
+MainScale.Scale = 1
+MainScale.Parent = Main
+
+Instance.new("UICorner", Main).CornerRadius = UDim.new(0, 12)
+
+local Border = Instance.new("UIStroke")
+Border.Color = Purple
+Border.Thickness = 1.5
+Border.Transparency = 0.25
+Border.Parent = Main
+
+-- HEADER (drag handle)
+
+local Header = Instance.new("Frame")
+Header.Name = "Header"
+Header.Size = UDim2.new(1, 0, 0, 58)
+Header.BackgroundColor3 = Panel
+Header.BorderSizePixel = 0
+Header.Parent = Main
+
+Instance.new("UICorner", Header).CornerRadius = UDim.new(0, 12)
+
+local Title = Instance.new("TextLabel")
+Title.Position = UDim2.fromOffset(15, 7)
+Title.Size = UDim2.new(1, -55, 0, 28)
+Title.BackgroundTransparency = 1
+Title.Text = "KEYLESS HUB"
+Title.TextColor3 = White
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 18
+Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.Parent = Header
+
+local Subtitle = Instance.new("TextLabel")
+Subtitle.Position = UDim2.fromOffset(16, 34)
+Subtitle.Size = UDim2.new(1, -55, 0, 14)
+Subtitle.BackgroundTransparency = 1
+Subtitle.Text = "BALL CONTROL  •  V1.6  •  DRAG TO MOVE"
+Subtitle.TextColor3 = Purple
+Subtitle.Font = Enum.Font.GothamBold
+Subtitle.TextSize = 9
+Subtitle.TextXAlignment = Enum.TextXAlignment.Left
+Subtitle.Parent = Header
+
+local CloseButton = Instance.new("TextButton")
+CloseButton.Position = UDim2.new(1, -36, 0, 8)
+CloseButton.Size = UDim2.fromOffset(26, 26)
+CloseButton.BackgroundColor3 = ButtonColor
+CloseButton.BorderSizePixel = 0
+CloseButton.Text = "X"
+CloseButton.TextColor3 = White
+CloseButton.Font = Enum.Font.GothamBold
+CloseButton.TextSize = 12
+CloseButton.AutoButtonColor = false
+CloseButton.Parent = Header
+
+Instance.new("UICorner", CloseButton).CornerRadius = UDim.new(0, 6)
+
+-- DRAGGING
+
+local Dragging = false
+local DragStartInput
+local DragStartPos
+
+local function ClampToScreen(x, y)
+    local screen = GUI.AbsoluteSize
+    local size = Main.AbsoluteSize
+
+    local maxX = math.max(0, screen.X - size.X)
+    local maxY = math.max(0, screen.Y - size.Y)
+
+    return math.clamp(x, 0, maxX), math.clamp(y, 0, maxY)
+end
+
+local function BeginDrag(input)
+    if input.UserInputType ~= Enum.UserInputType.MouseButton1
+        and input.UserInputType ~= Enum.UserInputType.Touch then
+        return
+    end
+
+    Dragging = true
+    DragStartInput = input.Position
+    DragStartPos = Main.AbsolutePosition
+end
+
+for _, handle in ipairs({ Header, Title, Subtitle }) do
+    Connect(handle.InputBegan, BeginDrag)
+end
+
+Connect(UIS.InputChanged, function(input)
+    if not Dragging then return end
+
+    if input.UserInputType ~= Enum.UserInputType.MouseMovement
+        and input.UserInputType ~= Enum.UserInputType.Touch then
+        return
+    end
+
+    local delta = input.Position - DragStartInput
+    local x, y = ClampToScreen(DragStartPos.X + delta.X, DragStartPos.Y + delta.Y)
+
+    Main.Position = UDim2.fromOffset(x, y)
+end)
+
+Connect(UIS.InputEnded, function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1
+        or input.UserInputType == Enum.UserInputType.Touch then
+        Dragging = false
+    end
+end)
+
+Connect(GUI:GetPropertyChangedSignal("AbsoluteSize"), function()
+    local pos = Main.AbsolutePosition
+    local x, y = ClampToScreen(pos.X, pos.Y)
+    Main.Position = UDim2.fromOffset(x, y)
+end)
+
+-- CONTENT
+
+local Content = Instance.new("Frame")
+Content.Position = UDim2.fromOffset(14, 69)
+Content.Size = UDim2.new(1, -28, 1, -80)
+Content.BackgroundTransparency = 1
+Content.Parent = Main
+
+-- Buttons use an "Active" attribute so hover tweens never overwrite state colors.
+local function RestColor(button)
+    if button:GetAttribute("Active") then
+        return button:GetAttribute("ActiveColor") or Purple
+    end
+    return ButtonColor
+end
+
+local function SetActive(button, active, color)
+    button:SetAttribute("ActiveColor", color)
+    button:SetAttribute("Active", active)
+    button.BackgroundColor3 = RestColor(button)
+end
+
+local function StyleButton(button)
+    button.BackgroundColor3 = ButtonColor
+    button.BorderSizePixel = 0
+    button.TextColor3 = White
+    button.Font = Enum.Font.GothamBold
+    button.AutoButtonColor = false
+
+    Instance.new("UICorner", button).CornerRadius = UDim.new(0, 8)
+
+    Connect(button.MouseEnter, function()
+        if button:GetAttribute("Active") then return end
+        TweenService:Create(button, TweenInfo.new(.15), {
+            BackgroundColor3 = HoverColor
+        }):Play()
+    end)
+
+    Connect(button.MouseLeave, function()
+        TweenService:Create(button, TweenInfo.new(.15), {
+            BackgroundColor3 = RestColor(button)
+        }):Play()
+    end)
+end
+
+StyleButton(CloseButton)
+
+local function MakeButton(name, text, y, height)
+    local Button = Instance.new("TextButton")
+    Button.Name = name
+    Button.Position = UDim2.fromOffset(0, y)
+    Button.Size = UDim2.new(1, 0, 0, height)
+    Button.Text = text
+    Button.TextSize = 12
+    Button.Parent = Content
+    StyleButton(Button)
+    return Button
+end
+
+local AutoSelectButton = MakeButton("AutoSelectBall", "★   AUTO SELECT BALL (BETA)", 0, 36)
+local SelectButton = MakeButton("SelectBall", "◈   SELECT BALL", 42, 36)
+local StartButton = MakeButton("StartControl", "▶   START CONTROL", 84, 36)
+local AutoControlButton = MakeButton("AutoControl", "⚡   AUTO CONTROL ON RELEASE: ON", 126, 36)
+AutoControlButton.TextSize = 11
+SetActive(AutoControlButton, true, Purple)
+
+local InstaGoalButton = MakeButton("InstaGoal", "➤   INSTA GOAL: OFF", 168, 36)
+InstaGoalButton.TextSize = 11
+
+-- FORWARD TIME (editable)
+
+local TimeLabel = Instance.new("TextLabel")
+TimeLabel.Position = UDim2.fromOffset(0, 210)
+TimeLabel.Size = UDim2.new(0.55, 0, 0, 30)
+TimeLabel.BackgroundTransparency = 1
+TimeLabel.Text = "FORWARD TIME (SEC)"
+TimeLabel.TextColor3 = Muted
+TimeLabel.Font = Enum.Font.GothamBold
+TimeLabel.TextSize = 10
+TimeLabel.TextXAlignment = Enum.TextXAlignment.Left
+TimeLabel.Parent = Content
+
+local TimeBox = Instance.new("TextBox")
+TimeBox.Name = "ForwardTime"
+TimeBox.Position = UDim2.new(0.55, 4, 0, 210)
+TimeBox.Size = UDim2.new(0.45, -4, 0, 30)
+TimeBox.BackgroundColor3 = ButtonColor
+TimeBox.BorderSizePixel = 0
+TimeBox.Text = tostring(InstaGoalTime)
+TimeBox.PlaceholderText = "seconds"
+TimeBox.PlaceholderColor3 = Muted
+TimeBox.TextColor3 = White
+TimeBox.Font = Enum.Font.GothamBold
+TimeBox.TextSize = 13
+TimeBox.ClearTextOnFocus = false
+TimeBox.Parent = Content
+
+Instance.new("UICorner", TimeBox).CornerRadius = UDim.new(0, 8)
+
+local TimeStroke = Instance.new("UIStroke")
+TimeStroke.Color = Purple
+TimeStroke.Thickness = 1
+TimeStroke.Transparency = 0.6
+TimeStroke.Parent = TimeBox
+
+-- SPEED
+
+local SpeedTitle = Instance.new("TextLabel")
+SpeedTitle.Position = UDim2.fromOffset(0, 250)
+SpeedTitle.Size = UDim2.new(1, 0, 0, 18)
+SpeedTitle.BackgroundTransparency = 1
+SpeedTitle.Text = "MOVEMENT SPEED"
+SpeedTitle.TextColor3 = Muted
+SpeedTitle.Font = Enum.Font.GothamBold
+SpeedTitle.TextSize = 10
+SpeedTitle.TextXAlignment = Enum.TextXAlignment.Left
+SpeedTitle.Parent = Content
+
+local SpeedDown = Instance.new("TextButton")
+SpeedDown.Position = UDim2.fromOffset(0, 270)
+SpeedDown.Size = UDim2.new(0.3, -4, 0, 32)
+SpeedDown.Text = "- SPEED"
+SpeedDown.TextSize = 11
+SpeedDown.Parent = Content
+StyleButton(SpeedDown)
+
+local SpeedValue = Instance.new("TextLabel")
+SpeedValue.Position = UDim2.new(0.3, 0, 0, 270)
+SpeedValue.Size = UDim2.new(0.4, 0, 0, 32)
+SpeedValue.BackgroundTransparency = 1
+SpeedValue.Text = tostring(Speed)
+SpeedValue.TextColor3 = White
+SpeedValue.Font = Enum.Font.GothamBold
+SpeedValue.TextSize = 18
+SpeedValue.Parent = Content
+
+local SpeedUp = Instance.new("TextButton")
+SpeedUp.Position = UDim2.new(0.7, 4, 0, 270)
+SpeedUp.Size = UDim2.new(0.3, -4, 0, 32)
+SpeedUp.Text = "+ SPEED"
+SpeedUp.TextSize = 11
+SpeedUp.Parent = Content
+StyleButton(SpeedUp)
+
+-- STATUS
+
+local Status = Instance.new("TextLabel")
+Status.Position = UDim2.fromOffset(0, 312)
+Status.Size = UDim2.new(1, 0, 0, 19)
+Status.BackgroundTransparency = 1
+Status.Text = "●  NO BALL SELECTED"
+Status.TextColor3 = Muted
+Status.Font = Enum.Font.GothamBold
+Status.TextSize = 10
+Status.TextXAlignment = Enum.TextXAlignment.Left
+Status.Parent = Content
+
+local SelectedName = Instance.new("TextLabel")
+SelectedName.Position = UDim2.fromOffset(0, 331)
+SelectedName.Size = UDim2.new(1, 0, 0, 16)
+SelectedName.BackgroundTransparency = 1
+SelectedName.Text = "Selected: None"
+SelectedName.TextColor3 = Muted
+SelectedName.Font = Enum.Font.Gotham
+SelectedName.TextSize = 10
+SelectedName.TextXAlignment = Enum.TextXAlignment.Left
+SelectedName.Parent = Content
+
+local Hint = Instance.new("TextLabel")
+Hint.Position = UDim2.fromOffset(0, 350)
+Hint.Size = UDim2.new(1, 0, 0, 14)
+Hint.BackgroundTransparency = 1
+Hint.Text = "W = Move  •  Mouse = Aim  •  X / ESC = Stop"
+Hint.TextColor3 = Muted
+Hint.Font = Enum.Font.Gotham
+Hint.TextSize = 9
+Hint.TextXAlignment = Enum.TextXAlignment.Left
+Hint.Parent = Content
+
+local function SetStatus(text, color)
+    Status.Text = "●  " .. text
+    Status.TextColor3 = color
+end
+
+-- HIGHLIGHT
+
+local function HighlightBall(ball)
+    if Highlight then
+        Highlight:Destroy()
+        Highlight = nil
+    end
+
+    Highlight = Instance.new("Highlight")
+    Highlight.Adornee = ball
+    Highlight.FillColor = Purple
+    Highlight.OutlineColor = Color3.fromRGB(210, 180, 255)
+    Highlight.FillTransparency = .8
+    Highlight.OutlineTransparency = 0
+    Highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    Highlight.Parent = GUI
+end
+
+-- VALIDATION / ATTACH DETECTION
+
+-- True for any part that belongs to a character (players, NPCs, dummies).
+local function IsCharacterPart(part)
+    local current = part
+    while current and current ~= workspace do
+        if current:IsA("Model") and current:FindFirstChildOfClass("Humanoid") then
+            return true
+        end
+        current = current.Parent
+    end
+    return false
+end
+
+local function IsValid()
+    return SelectedBall ~= nil
+        and SelectedBall.Parent ~= nil
+        and SelectedBall:IsDescendantOf(workspace)
+        and SelectedBall:IsA("BasePart")
+end
+
+-- Returns a status string if the ball can't be controlled right now, otherwise nil.
+local function GetBlockReason(ball)
+    if ball.Anchored then
+        return "BALL ANCHORED"
+    end
+
+    local root = ball.AssemblyRootPart
+    if root and root.Anchored then
+        return "BALL ANCHORED"
+    end
+
+    if IsCharacterPart(ball) or ball:FindFirstAncestorOfClass("Tool") then
+        return "BALL ATTACHED"
+    end
+
+    local ok, connected = pcall(ball.GetConnectedParts, ball, true)
+    if ok then
+        for _, part in ipairs(connected) do
+            if part ~= ball
+                and (IsCharacterPart(part) or part:FindFirstAncestorOfClass("Tool")) then
+                return "BALL ATTACHED"
+            end
+        end
+    end
+
+    return nil
+end
+
+-- BODY FREEZE
+
+local function FreezeBody()
+    if not FreezeBodyWhileControlling then return end
+
+    local char = Player.Character
+    local hum = char and char:FindFirstChildOfClass("Humanoid")
+    local root = char and char:FindFirstChild("HumanoidRootPart")
+    if not hum or not root then return end
+
+    FrozenState = {
+        Humanoid = hum,
+        Root = root,
+        WalkSpeed = hum.WalkSpeed,
+        JumpPower = hum.JumpPower,
+        JumpHeight = hum.JumpHeight,
+        AutoRotate = hum.AutoRotate,
+        Anchored = root.Anchored,
+    }
+
+    hum.WalkSpeed = 0
+    hum.JumpPower = 0
+    hum.JumpHeight = 0
+    hum.AutoRotate = false
+
+    root.AssemblyLinearVelocity = Vector3.zero
+    root.AssemblyAngularVelocity = Vector3.zero
+    root.Anchored = true
+end
+
+local function UnfreezeBody()
+    local state = FrozenState
+    FrozenState = nil
+    if not state then return end
+
+    if state.Root and state.Root.Parent then
+        state.Root.Anchored = state.Anchored
+    end
+
+    local hum = state.Humanoid
+    if hum and hum.Parent then
+        hum.WalkSpeed = state.WalkSpeed
+        hum.JumpPower = state.JumpPower
+        hum.JumpHeight = state.JumpHeight
+        hum.AutoRotate = state.AutoRotate
+    end
+end
+
+-- SELECTION
+
+local function SelectBall(part)
+    SelectedBall = part
+
+    local label = part.Name
+    if part.Parent and part.Parent ~= workspace then
+        label = part.Parent.Name .. " / " .. part.Name
+    end
+    SelectedName.Text = "Selected: " .. label
+
+    HighlightBall(part)
+end
+
+Connect(SelectButton.MouseButton1Click, function()
+    if Controlling then return end
+
+    Selecting = not Selecting
+
+    SelectButton.Text = Selecting
+        and "●   CLICK A BALL..."
+        or "◈   SELECT BALL"
+
+    SetActive(SelectButton, Selecting, Purple)
+
+    if Selecting then
+        SetStatus("SELECT A BALL IN THE WORLD", Green)
+    else
+        SetStatus("SELECTION CANCELLED", Muted)
+    end
+end)
+
+local function ManualSelectClick()
+    local Target = Mouse.Target
+    if not Target or not Target:IsA("BasePart") then return end
+
+    if IsCharacterPart(Target) then
+        SetStatus("CAN'T SELECT A CHARACTER", Red)
+        return
+    end
+
+    AutoTracking = false
+    Selecting = false
+
+    SelectButton.Text = "◈   SELECT BALL"
+    SetActive(SelectButton, false)
+
+    SelectBall(Target)
+    SetStatus("BALL SELECTED", Green)
+end
+
+-- AUTO SELECT (BETA)
+
+local function Normalize(text)
+    return (string.lower(text):gsub("[%s_%-%.]", ""))
+end
+
+local function AncestorNameHas(inst, word)
+    local current = inst.Parent
+    while current and current ~= workspace do
+        if string.find(Normalize(current.Name), word, 1, true) then
+            return true
+        end
+        current = current.Parent
+    end
+    return false
+end
+
+local function ScoreCandidate(part)
+    local name = Normalize(part.Name)
+
+    if name == "ballhitbox" then
+        return 4
+    elseif string.find(name, "ball", 1, true) and string.find(name, "hitbox", 1, true) then
+        return 3
+    elseif string.find(name, "hitbox", 1, true) and AncestorNameHas(part, "ball") then
+        return 2
+    elseif name == "ball" then
+        return 1
+    end
+
+    return 0
+end
+
+local function AutoSelectBall(silent)
+    if Scanning then return end
+    Scanning = true
+
+    if not silent then
+        SetStatus("SCANNING FOR BALL HITBOX...", Green)
+    end
+
+    task.spawn(function()
+        local char = Player.Character
+        local root = char and char:FindFirstChild("HumanoidRootPart")
+
+        local best, bestScore, bestDistance = nil, 0, math.huge
+        local count = 0
+
+        for _, inst in ipairs(workspace:GetDescendants()) do
+            count += 1
+            if count % 3000 == 0 then
+                task.wait() -- avoid freezing on huge maps
+            end
+
+            if inst:IsA("BasePart") then
+                local score = ScoreCandidate(inst)
+
+                if score > 0 and not IsCharacterPart(inst) then
+                    local distance = root and (inst.Position - root.Position).Magnitude or 0
+
+                    if score > bestScore or (score == bestScore and distance < bestDistance) then
+                        best, bestScore, bestDistance = inst, score, distance
+                    end
+                end
+            end
+        end
+
+        Scanning = false
+        if not Alive then return end
+
+        if best then
+            AutoTracking = true
+            Selecting = false
+            SelectButton.Text = "◈   SELECT BALL"
+            SetActive(SelectButton, false)
+
+            SelectBall(best)
+            SetStatus("BALL AUTO SELECTED", Green)
+        elseif not silent then
+            SetStatus("NO BALL FOUND - TRY MANUAL SELECT", Red)
+        end
+    end)
+end
+
+Connect(AutoSelectButton.MouseButton1Click, function()
+    if Controlling then return end
+    AutoSelectBall(false)
+end)
+
+-- Keeps the selection alive if the ball respawns (only after using Auto Select).
+task.spawn(function()
+    while Alive do
+        task.wait(1.5)
+
+        if Alive and AutoTracking and not Controlling and not Scanning then
+            if not SelectedBall or not SelectedBall:IsDescendantOf(workspace) then
+                AutoSelectBall(true)
+            end
+        end
+    end
+end)
+
+-- CAMERA
+
+local function SaveCamera()
+    local Camera = workspace.CurrentCamera
+    if not Camera then return false end
+
+    SavedCameraSubject = Camera.CameraSubject
+    SavedCameraType = Camera.CameraType
+    SavedCameraCFrame = Camera.CFrame
+    SavedCameraFocus = Camera.Focus
+
+    return true
+end
+
+local function RestoreCamera()
+    local Camera = workspace.CurrentCamera
+    if not Camera then return end
+
+    Camera.CameraType = Enum.CameraType.Scriptable
+
+    if SavedCameraCFrame then
+        Camera.CFrame = SavedCameraCFrame
+    end
+
+    if SavedCameraFocus then
+        Camera.Focus = SavedCameraFocus
+    end
+
+    -- Fall back to the character's humanoid if the old subject is gone.
+    local Subject = SavedCameraSubject
+    if not Subject or not Subject.Parent then
+        local Char = Player.Character
+        Subject = Char and Char:FindFirstChildOfClass("Humanoid")
+    end
+
+    Camera.CameraSubject = Subject
+    Camera.CameraType = SavedCameraType or Enum.CameraType.Custom
+
+    SavedCameraSubject = nil
+    SavedCameraType = nil
+    SavedCameraCFrame = nil
+    SavedCameraFocus = nil
+end
+
+-- Shiftlock-style camera: mouse is locked to the center and turns the view.
+local function CameraStep()
+    if not Controlling or not IsValid() then return end
+
+    local Camera = workspace.CurrentCamera
+    if not Camera then return end
+
+    UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
+
+    local delta = UIS:GetMouseDelta()
+    Yaw -= delta.X * CameraSensitivity
+    Pitch = math.clamp(Pitch - delta.Y * CameraSensitivity, -1.3, 1.3)
+
+    local focus = SelectedBall.Position
+
+    Camera.CameraType = Enum.CameraType.Scriptable
+    Camera.CFrame = CFrame.new(focus)
+        * CFrame.fromEulerAnglesYXZ(Pitch, Yaw, 0)
+        * CFrame.new(0, 0, CamDistance)
+    Camera.Focus = CFrame.new(focus)
+end
+
+Connect(UIS.InputChanged, function(input)
+    if Controlling and input.UserInputType == Enum.UserInputType.MouseWheel then
+        CamDistance = math.clamp(CamDistance - input.Position.Z * 2, MinZoom, MaxZoom)
+    end
+end)
+
+-- STOP CONTROL
+
+local function StopControl(message, color)
+    if not Controlling then return end
+
+    Controlling = false
+    DashUntil = 0
+
+    if MovementConnection then
+        MovementConnection:Disconnect()
+        MovementConnection = nil
+    end
+
+    if DiedConnection then
+        DiedConnection:Disconnect()
+        DiedConnection = nil
+    end
+
+    pcall(function()
+        RunService:UnbindFromRenderStep(CAMERA_BIND)
+    end)
+
+    table.clear(Keys)
+
+    UnfreezeBody()
+
+    UIS.MouseBehavior = Enum.MouseBehavior.Default
+    UIS.MouseIconEnabled = true
+
+    RestoreCamera()
+
+    StartButton.Text = "▶   START CONTROL"
+    SetActive(StartButton, false)
+
+    SetStatus(message or "CONTROL STOPPED", color or Muted)
+end
+
+-- INSTA GOAL
+
+local function StartDash()
+    DashUntil = os.clock() + InstaGoalTime
+    SetStatus("INSTA GOAL!", Green)
+end
+
+-- START CONTROL
+
+local function StartControl()
+    if Controlling then
+        StopControl()
+        return
+    end
+
+    if not IsValid() then
+        SetStatus("SELECT A VALID BALL FIRST", Red)
+        return
+    end
+
+    local reason = GetBlockReason(SelectedBall)
+    if reason then
+        SetStatus(reason, Red)
+        return
+    end
+
+    if not SaveCamera() then return end
+
+    Selecting = false
+    SelectButton.Text = "◈   SELECT BALL"
+    SetActive(SelectButton, false)
+
+    local Camera = workspace.CurrentCamera
+
+    -- Start the shiftlock camera facing the same way as the current view.
+    local look = Camera.CFrame.LookVector
+    Yaw = math.atan2(-look.X, -look.Z)
+    Pitch = math.asin(math.clamp(look.Y, -1, 1))
+
+    HoverY = SelectedBall.Position.Y
+    DashUntil = 0
+    Controlling = true
+
+    TimeBox:ReleaseFocus() -- make sure typing doesn't swallow W while controlling
+
+    -- Keep your body where it is while the ball is controlled.
+    FreezeBody()
+
+    local hum = FrozenState and FrozenState.Humanoid
+    if hum then
+        DiedConnection = hum.Died:Connect(function()
+            StopControl("YOU DIED - CONTROL STOPPED", Red)
+        end)
+    end
+
+    Camera.CameraType = Enum.CameraType.Scriptable
+    UIS.MouseIconEnabled = false
+
+    RunService:BindToRenderStep(CAMERA_BIND, Enum.RenderPriority.Camera.Value + 1, CameraStep)
+
+    StartButton.Text = "■   STOP CONTROL"
+    SetActive(StartButton, true, StopColor)
+
+    SetStatus("CONTROLLING BALL", Green)
+
+    local CheckTimer = 0
+
+    -- Heartbeat runs alongside physics, unlike RenderStepped.
+    MovementConnection = RunService.Heartbeat:Connect(function(dt)
+        if not IsValid() then
+            StopControl("BALL LOST", Red)
+            return
+        end
+
+        -- Auto uncontrol when the ball gets attached or anchored.
+        CheckTimer += dt
+        if SelectedBall.Anchored or CheckTimer >= 0.05 then
+            CheckTimer = 0
+
+            local blocked = GetBlockReason(SelectedBall)
+            if blocked then
+                StopControl(blocked .. " - CONTROL STOPPED", Red)
+                return
+            end
+        end
+
+        local Cam = workspace.CurrentCamera
+        if not Cam then return end
+
+        local pos = SelectedBall.Position
+        local vel = SelectedBall.AssemblyLinearVelocity
+
+        -- Insta Goal: shoot straight ahead (where you're looking) at full speed.
+        if os.clock() < DashUntil then
+            HoverY = pos.Y
+            SelectedBall.AssemblyLinearVelocity = Cam.CFrame.LookVector * InstaGoalSpeed
+            return
+        end
+
+        if Keys.W then
+            local lookVector = Cam.CFrame.LookVector
+
+            if not FlyAlongLook then
+                lookVector = Vector3.new(lookVector.X, 0, lookVector.Z)
+                if lookVector.Magnitude > 0 then
+                    lookVector = lookVector.Unit
+                end
+            end
+
+            HoverY = pos.Y -- hover wherever you stop
+
+            local alpha = 1 - math.exp(-dt * 14)
+            SelectedBall.AssemblyLinearVelocity = vel:Lerp(lookVector * Speed, alpha)
+        else
+            -- Hover: brake horizontally and hold altitude.
+            local alpha = 1 - math.exp(-dt * 14)
+            local horizontal = Vector3.new(vel.X, 0, vel.Z):Lerp(Vector3.zero, alpha)
+            local vertical = math.clamp((HoverY - pos.Y) * HoverGain, -60, 60)
+
+            SelectedBall.AssemblyLinearVelocity =
+                Vector3.new(horizontal.X, vertical, horizontal.Z)
+        end
+    end)
+end
+
+Connect(StartButton.MouseButton1Click, StartControl)
+
+-- AUTO CONTROL / INSTA GOAL ON RELEASE
+
+local function TryAutoStart(dash)
+    if Controlling or not SelectedBall then return end
+    if not AutoControl and not dash then return end
+
+    AutoStartToken += 1
+    local token = AutoStartToken
+
+    task.spawn(function()
+        local deadline = os.clock() + AutoStartWait
+        local lastReason
+
+        while os.clock() < deadline do
+            if not Alive or token ~= AutoStartToken or Controlling then return end
+
+            if not IsValid() then return end
+
+            lastReason = GetBlockReason(SelectedBall)
+            if not lastReason then
+                StartControl()
+
+                if dash and Controlling then
+                    StartDash()
+                end
+
+                return
+            end
+
+            task.wait(0.05)
+        end
+
+        if Alive and not Controlling and token == AutoStartToken then
+            SetStatus((lastReason or "BALL BLOCKED") .. " - NOT CONTROLLING", Red)
+        end
+    end)
+end
+
+Connect(AutoControlButton.MouseButton1Click, function()
+    AutoControl = not AutoControl
+
+    AutoControlButton.Text = AutoControl
+        and "⚡   AUTO CONTROL ON RELEASE: ON"
+        or "⚡   AUTO CONTROL ON RELEASE: OFF"
+
+    SetActive(AutoControlButton, AutoControl, Purple)
+    SetStatus(AutoControl and "AUTO CONTROL ENABLED" or "AUTO CONTROL DISABLED",
+        AutoControl and Green or Muted)
+end)
+
+Connect(InstaGoalButton.MouseButton1Click, function()
+    InstaGoal = not InstaGoal
+
+    InstaGoalButton.Text = InstaGoal
+        and "➤   INSTA GOAL: ON"
+        or "➤   INSTA GOAL: OFF"
+
+    SetActive(InstaGoalButton, InstaGoal, Purple)
+    SetStatus(InstaGoal and "INSTA GOAL ENABLED" or "INSTA GOAL DISABLED",
+        InstaGoal and Green or Muted)
+end)
+
+-- Copy the Discord invite from the main window.
+local DiscordButton = MakeButton("Discord", "◆   COPY DISCORD INVITE", 372, 32)
+DiscordButton.TextSize = 11
+
+Connect(DiscordButton.MouseButton1Click, function()
+    if CopyToClipboard(DiscordLink) then
+        SetStatus("DISCORD LINK COPIED!", Green)
+    else
+        SetStatus("COPY FAILED: discord.gg/VaNyVR2Zwk", Red)
+    end
+end)
+
+-- Edit how many seconds Insta Goal pushes the ball forward.
+Connect(TimeBox.FocusLost, function()
+    local value = tonumber(TimeBox.Text)
+
+    if value then
+        InstaGoalTime = math.clamp(value, MinDashTime, MaxDashTime)
+        SetStatus("INSTA GOAL TIME: " .. tostring(InstaGoalTime) .. "s", Green)
+    else
+        SetStatus("INVALID TIME - USING " .. tostring(InstaGoalTime) .. "s", Red)
+    end
+
+    TimeBox.Text = tostring(InstaGoalTime)
+end)
+
+Connect(TimeBox.Focused, function()
+    TimeStroke.Transparency = 0
+end)
+
+Connect(TimeBox.FocusLost, function()
+    TimeStroke.Transparency = 0.6
+end)
+
+-- INPUT
+
+Connect(UIS.InputBegan, function(input, processed)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        if processed then return end -- clicks on the UI are ignored
+
+        if Selecting and not Controlling then
+            ManualSelectClick()
+            return
+        end
+
+        Holding = true
+        return
+    end
+
+    if input.KeyCode == Enum.KeyCode.Escape and Controlling then
+        StopControl()
+        return
+    end
+
+    if processed then return end
+
+    if input.KeyCode == ToggleUIKey then
+        if not IntroDone then return end
+        Main.Visible = not Main.Visible
+        Dragging = false
+        return
+    end
+
+    if not Controlling then return end
+
+    if input.KeyCode == StopKey then
+        StopControl()
+        return
+    end
+
+    if input.KeyCode == Enum.KeyCode.W then
+        Keys.W = true
+    end
+end)
+
+Connect(UIS.InputEnded, function(input)
+    if input.KeyCode == Enum.KeyCode.W then
+        Keys.W = false
+    end
+
+    -- Hold + release Mouse Button 1 anywhere on the screen.
+    if input.UserInputType == Enum.UserInputType.MouseButton1 and Holding then
+        Holding = false
+
+        if Controlling then
+            if InstaGoal then
+                StartDash()
+            end
+        else
+            TryAutoStart(InstaGoal)
+        end
+    end
+end)
+
+-- Clear stuck keys / drags if the window loses focus.
+Connect(UIS.WindowFocusReleased, function()
+    table.clear(Keys)
+    Dragging = false
+    Holding = false
+end)
+
+-- SPEED
+
+local function UpdateSpeed(delta)
+    Speed = math.clamp(Speed + delta, MinSpeed, MaxSpeed)
+    SpeedValue.Text = tostring(Speed)
+    SetStatus("SPEED: " .. Speed, Green)
+end
+
+Connect(SpeedUp.MouseButton1Click, function() UpdateSpeed(SpeedStep) end)
+Connect(SpeedDown.MouseButton1Click, function() UpdateSpeed(-SpeedStep) end)
+
+-- RESPAWN SAFETY
+
+Connect(Player.CharacterAdded, function()
+    if Controlling then
+        StopControl()
+    end
+end)
+
+-- CLOSE / CLEANUP
+
+Connect(CloseButton.MouseButton1Click, function()
+    GUI:Destroy()
+end)
+
+GUI.Destroying:Connect(function()
+    Alive = false
+
+    if Controlling then
+        StopControl()
+    end
+
+    pcall(function()
+        RunService:UnbindFromRenderStep(CAMERA_BIND)
+    end)
+
+    UIS.MouseBehavior = Enum.MouseBehavior.Default
+    UIS.MouseIconEnabled = true
+
+    if Highlight then
+        Highlight:Destroy()
+        Highlight = nil
+    end
+
+    for _, conn in ipairs(Connections) do
+        conn:Disconnect()
+    end
+    table.clear(Connections)
+
+    _G.KeylessHub = nil
+end)
+
+-- INTRO
+
+local function RevealMain()
+    if IntroDone then return end
+    IntroDone = true
+
+    Main.Visible = true
+    MainScale.Scale = 0.85
+
+    TweenService:Create(MainScale,
+        TweenInfo.new(0.45, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
+        { Scale = 1 }):Play()
+
+    SetStatus("WELCOME - SELECT A BALL TO START", Green)
+end
+
+local function Tween(inst, time, props, style, direction)
+    local tween = TweenService:Create(inst, TweenInfo.new(
+        time,
+        style or Enum.EasingStyle.Quint,
+        direction or Enum.EasingDirection.Out
+    ), props)
+    tween:Play()
+    return tween
+end
+
+local function PlayIntro()
+    local TitleText = "KEYLESS HUB"
+    local LightPurple = Color3.fromRGB(190, 160, 255)
+
+    -- Full-screen overlay (a CanvasGroup so the whole intro fades as one).
+    local Intro = Instance.new("CanvasGroup")
+    Intro.Name = "Intro"
+    Intro.Size = UDim2.fromScale(1, 1)
+    Intro.BackgroundColor3 = Color3.fromRGB(8, 8, 14)
+    Intro.BorderSizePixel = 0
+    Intro.Active = true -- blocks clicks from reaching the game
+    Intro.ZIndex = 50
+    Intro.GroupTransparency = 1
+    Intro.Parent = GUI
+
+    -- Soft pulsing glow behind the title.
+    local Glow = Instance.new("Frame")
+    Glow.AnchorPoint = Vector2.new(0.5, 0.5)
+    Glow.Position = UDim2.new(0.5, 0, 0.5, -90)
+    Glow.Size = UDim2.fromOffset(340, 340)
+    Glow.BackgroundColor3 = Purple
+    Glow.BackgroundTransparency = 0.9
+    Glow.BorderSizePixel = 0
+    Glow.ZIndex = 1
+    Glow.Parent = Intro
+    Instance.new("UICorner", Glow).CornerRadius = UDim.new(1, 0)
+
+    TweenService:Create(Glow, TweenInfo.new(2.2, Enum.EasingStyle.Sine,
+        Enum.EasingDirection.InOut, -1, true), {
+        Size = UDim2.fromOffset(420, 420),
+        BackgroundTransparency = 0.95
+    }):Play()
+
+    -- Floating particles.
+    local Particles = Instance.new("Frame")
+    Particles.Size = UDim2.fromScale(1, 1)
+    Particles.BackgroundTransparency = 1
+    Particles.ClipsDescendants = true
+    Particles.ZIndex = 1
+    Particles.Parent = Intro
+
+    for i = 1, 18 do
+        task.spawn(function()
+            local rng = Random.new(i * 977)
+
+            local dot = Instance.new("Frame")
+            local size = rng:NextInteger(3, 7)
+            dot.Size = UDim2.fromOffset(size, size)
+            dot.BackgroundColor3 = i % 3 == 0 and LightPurple or Purple
+            dot.BackgroundTransparency = 1
+            dot.BorderSizePixel = 0
+            Instance.new("UICorner", dot).CornerRadius = UDim.new(1, 0)
+            dot.Parent = Particles
+
+            task.wait(rng:NextNumber(0, 2.5))
+
+            while Alive and Intro.Parent ~= nil do
+                local x = rng:NextNumber(0.02, 0.98)
+                local duration = rng:NextNumber(4, 8)
+
+                dot.Position = UDim2.new(x, 0, 1.05, 0)
+                dot.BackgroundTransparency = 1
+
+                Tween(dot, duration, {
+                    Position = UDim2.new(x + rng:NextNumber(-0.06, 0.06), 0, -0.05, 0)
+                }, Enum.EasingStyle.Linear)
+
+                Tween(dot, duration * 0.2, { BackgroundTransparency = 0.4 },
+                    Enum.EasingStyle.Sine)
+
+                task.delay(duration * 0.75, function()
+                    if dot.Parent then
+                        Tween(dot, duration * 0.25, { BackgroundTransparency = 1 },
+                            Enum.EasingStyle.Sine)
+                    end
+                end)
+
+                task.wait(duration)
+            end
+        end)
+    end
+
+    -- Centered container, scaled to fit small screens.
+    local Container = Instance.new("Frame")
+    Container.AnchorPoint = Vector2.new(0.5, 0.5)
+    Container.Position = UDim2.fromScale(0.5, 0.5)
+    Container.Size = UDim2.fromOffset(420, 370)
+    Container.BackgroundTransparency = 1
+    Container.ZIndex = 2
+    Container.Parent = Intro
+
+    local ContainerScale = Instance.new("UIScale")
+    ContainerScale.Parent = Container
+
+    local function FitScale()
+        local screen = GUI.AbsoluteSize
+        ContainerScale.Scale = math.clamp(math.min(screen.X / 460, screen.Y / 420), 0.5, 1.15)
+    end
+
+    FitScale()
+    local FitConnection = GUI:GetPropertyChangedSignal("AbsoluteSize"):Connect(FitScale)
+
+    -- "WE PRESENT"
+    local WePresent = Instance.new("TextLabel")
+    WePresent.Position = UDim2.new(0, 0, 0, -10)
+    WePresent.Size = UDim2.new(1, 0, 0, 18)
+    WePresent.BackgroundTransparency = 1
+    WePresent.Text = "W E   P R E S E N T"
+    WePresent.TextColor3 = Muted
+    WePresent.TextTransparency = 1
+    WePresent.Font = Enum.Font.GothamBold
+    WePresent.TextSize = 13
+    WePresent.Parent = Container
+
+    -- Title (typewriter + shimmer)
+    local TitleLabel = Instance.new("TextLabel")
+    TitleLabel.Position = UDim2.new(0, 0, 0, 22)
+    TitleLabel.Size = UDim2.new(1, 0, 0, 60)
+    TitleLabel.BackgroundTransparency = 1
+    TitleLabel.Text = TitleText
+    TitleLabel.TextColor3 = White
+    TitleLabel.Font = Enum.Font.GothamBlack
+    TitleLabel.TextSize = 50
+    TitleLabel.MaxVisibleGraphemes = 0
+    TitleLabel.Parent = Container
+
+    local Shimmer = Instance.new("UIGradient")
+    Shimmer.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Purple),
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 255, 255)),
+        ColorSequenceKeypoint.new(1, Purple),
+    })
+    Shimmer.Offset = Vector2.new(-1, 0)
+    Shimmer.Parent = TitleLabel
+
+    TweenService:Create(Shimmer, TweenInfo.new(2.2, Enum.EasingStyle.Linear,
+        Enum.EasingDirection.InOut, -1), {
+        Offset = Vector2.new(1, 0)
+    }):Play()
+
+    -- Accent line
+    local Line = Instance.new("Frame")
+    Line.AnchorPoint = Vector2.new(0.5, 0)
+    Line.Position = UDim2.new(0.5, 0, 0, 90)
+    Line.Size = UDim2.fromOffset(0, 3)
+    Line.BackgroundColor3 = Purple
+    Line.BorderSizePixel = 0
+    Line.Parent = Container
+    Instance.new("UICorner", Line).CornerRadius = UDim.new(1, 0)
+
+    -- Version badge
+    local Badge = Instance.new("Frame")
+    Badge.AnchorPoint = Vector2.new(0.5, 0)
+    Badge.Position = UDim2.new(0.5, 0, 0, 104)
+    Badge.Size = UDim2.fromOffset(0, 0)
+    Badge.BackgroundColor3 = Purple
+    Badge.BorderSizePixel = 0
+    Badge.ClipsDescendants = true
+    Badge.Parent = Container
+    Instance.new("UICorner", Badge).CornerRadius = UDim.new(0, 16)
+
+    local BadgeText = Instance.new("TextLabel")
+    BadgeText.Size = UDim2.fromScale(1, 1)
+    BadgeText.BackgroundTransparency = 1
+    BadgeText.Text = "V1.6"
+    BadgeText.TextColor3 = White
+    BadgeText.TextTransparency = 1
+    BadgeText.Font = Enum.Font.GothamBlack
+    BadgeText.TextSize = 16
+    BadgeText.Parent = Badge
+
+    -- Discord card (inside a CanvasGroup so it can fade + slide as one)
+    local CardGroup = Instance.new("CanvasGroup")
+    CardGroup.Position = UDim2.new(0, 0, 0, 176)
+    CardGroup.Size = UDim2.new(1, 0, 0, 150)
+    CardGroup.BackgroundTransparency = 1
+    CardGroup.GroupTransparency = 1
+    CardGroup.Parent = Container
+
+    local Card = Instance.new("Frame")
+    Card.Position = UDim2.fromOffset(2, 2)
+    Card.Size = UDim2.new(1, -4, 1, -4)
+    Card.BackgroundColor3 = Panel
+    Card.BorderSizePixel = 0
+    Card.Parent = CardGroup
+    Instance.new("UICorner", Card).CornerRadius = UDim.new(0, 14)
+
+    local CardStroke = Instance.new("UIStroke")
+    CardStroke.Color = Purple
+    CardStroke.Thickness = 1.5
+    CardStroke.Transparency = 0.2
+    CardStroke.Parent = Card
+
+    local CardTitle = Instance.new("TextLabel")
+    CardTitle.Position = UDim2.fromOffset(16, 12)
+    CardTitle.Size = UDim2.new(1, -32, 0, 20)
+    CardTitle.BackgroundTransparency = 1
+    CardTitle.Text = "JOIN OUR DISCORD SERVER"
+    CardTitle.TextColor3 = White
+    CardTitle.Font = Enum.Font.GothamBold
+    CardTitle.TextSize = 14
+    CardTitle.Parent = Card
+
+    local CardSub = Instance.new("TextLabel")
+    CardSub.Position = UDim2.fromOffset(16, 33)
+    CardSub.Size = UDim2.new(1, -32, 0, 16)
+    CardSub.BackgroundTransparency = 1
+    CardSub.Text = "Get updates, support and more!"
+    CardSub.TextColor3 = Muted
+    CardSub.Font = Enum.Font.Gotham
+    CardSub.TextSize = 11
+    CardSub.Parent = Card
+
+    local LinkBox = Instance.new("TextBox")
+    LinkBox.Position = UDim2.fromOffset(16, 58)
+    LinkBox.Size = UDim2.new(1, -32, 0, 32)
+    LinkBox.BackgroundColor3 = ButtonColor
+    LinkBox.BorderSizePixel = 0
+    LinkBox.Text = DiscordLink
+    LinkBox.TextColor3 = LightPurple
+    LinkBox.Font = Enum.Font.GothamBold
+    LinkBox.TextSize = 12
+    LinkBox.ClearTextOnFocus = false
+    LinkBox.Parent = Card
+    Instance.new("UICorner", LinkBox).CornerRadius = UDim.new(0, 8)
+
+    -- The link can be selected and copied, but not changed.
+    Connect(LinkBox:GetPropertyChangedSignal("Text"), function()
+        if LinkBox.Text ~= DiscordLink then
+            LinkBox.Text = DiscordLink
+        end
+    end)
+
+    local CopyButton = Instance.new("TextButton")
+    CopyButton.Position = UDim2.fromOffset(16, 98)
+    CopyButton.Size = UDim2.new(1, -32, 0, 32)
+    CopyButton.BackgroundColor3 = Purple
+    CopyButton.BorderSizePixel = 0
+    CopyButton.Text = "COPY INVITE LINK"
+    CopyButton.TextColor3 = White
+    CopyButton.Font = Enum.Font.GothamBold
+    CopyButton.TextSize = 12
+    CopyButton.AutoButtonColor = false
+    CopyButton.Parent = Card
+    Instance.new("UICorner", CopyButton).CornerRadius = UDim.new(0, 8)
+
+    local CopyHover = Color3.fromRGB(170, 120, 255)
+
+    Connect(CopyButton.MouseEnter, function()
+        Tween(CopyButton, 0.15, { BackgroundColor3 = CopyHover })
+    end)
+
+    Connect(CopyButton.MouseLeave, function()
+        Tween(CopyButton, 0.15, { BackgroundColor3 = Purple })
+    end)
+
+    local Copying = false
+
+    Connect(CopyButton.MouseButton1Click, function()
+        if Copying then return end
+        Copying = true
+
+        if CopyToClipboard(DiscordLink) then
+            CopyButton.Text = "COPIED!"
+        else
+            -- No clipboard access: select the text so you can press Ctrl+C.
+            LinkBox:CaptureFocus()
+            LinkBox.CursorPosition = #DiscordLink + 1
+            LinkBox.SelectionStart = 1
+            CopyButton.Text = "PRESS CTRL+C TO COPY"
+        end
+
+        task.wait(2)
+
+        if CopyButton.Parent then
+            CopyButton.Text = "COPY INVITE LINK"
+        end
+        Copying = false
+    end)
+
+    -- Loading bar
+    local Track = Instance.new("Frame")
+    Track.AnchorPoint = Vector2.new(0.5, 0)
+    Track.Position = UDim2.new(0.5, 0, 0, 340)
+    Track.Size = UDim2.fromOffset(260, 4)
+    Track.BackgroundColor3 = Panel
+    Track.BorderSizePixel = 0
+    Track.Parent = Container
+    Instance.new("UICorner", Track).CornerRadius = UDim.new(1, 0)
+
+    local Fill = Instance.new("Frame")
+    Fill.Size = UDim2.fromScale(0, 1)
+    Fill.BackgroundColor3 = Purple
+    Fill.BorderSizePixel = 0
+    Fill.Parent = Track
+    Instance.new("UICorner", Fill).CornerRadius = UDim.new(1, 0)
+
+    -- Continue button (appears when loading finishes)
+    local Continue = Instance.new("TextButton")
+    Continue.AnchorPoint = Vector2.new(0.5, 0)
+    Continue.Position = UDim2.new(0.5, 0, 0, 330)
+    Continue.Size = UDim2.fromOffset(0, 0)
+    Continue.BackgroundColor3 = Purple
+    Continue.BorderSizePixel = 0
+    Continue.Text = ""
+    Continue.TextColor3 = White
+    Continue.Font = Enum.Font.GothamBold
+    Continue.TextSize = 13
+    Continue.AutoButtonColor = false
+    Continue.ClipsDescendants = true
+    Continue.Visible = false
+    Continue.Parent = Container
+    Instance.new("UICorner", Continue).CornerRadius = UDim.new(0, 10)
+
+    local ContinueStroke = Instance.new("UIStroke")
+    ContinueStroke.Color = Color3.fromRGB(230, 215, 255)
+    ContinueStroke.Thickness = 1.5
+    ContinueStroke.Transparency = 0.2
+    ContinueStroke.Parent = Continue
+
+    Connect(Continue.MouseEnter, function()
+        Tween(Continue, 0.15, { BackgroundColor3 = CopyHover })
+    end)
+
+    Connect(Continue.MouseLeave, function()
+        Tween(Continue, 0.15, { BackgroundColor3 = Purple })
+    end)
+
+    local Clicked = false
+    Connect(Continue.MouseButton1Click, function()
+        Clicked = true
+    end)
+
+    ---------------------------------------------------------------
+    -- TIMELINE
+    ---------------------------------------------------------------
+
+    Tween(Intro, 0.5, { GroupTransparency = 0 }, Enum.EasingStyle.Sine)
+    task.wait(0.35)
+
+    local BarTween = Tween(Fill, 3.6, { Size = UDim2.fromScale(1, 1) },
+        Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+
+    -- 1) We present
+    Tween(WePresent, 0.7, {
+        Position = UDim2.new(0, 0, 0, 0),
+        TextTransparency = 0
+    })
+    task.wait(0.5)
+
+    -- 2) Accent line
+    Tween(Line, 0.6, { Size = UDim2.fromOffset(260, 3) })
+    task.wait(0.15)
+
+    -- 3) Title typewriter
+    for i = 1, #TitleText do
+        if not Alive then return end
+        TitleLabel.MaxVisibleGraphemes = i
+        task.wait(0.055)
+    end
+    task.wait(0.1)
+
+    -- 4) Version badge pops in
+    Tween(Badge, 0.5, { Size = UDim2.fromOffset(96, 32) },
+        Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+    Tween(BadgeText, 0.4, { TextTransparency = 0 })
+    task.wait(0.35)
+
+    -- 5) Discord card slides up
+    Tween(CardGroup, 0.7, {
+        Position = UDim2.new(0, 0, 0, 150),
+        GroupTransparency = 0
+    })
+
+    -- 6) Wait for loading to finish
+    BarTween.Completed:Wait()
+    if not Alive then return end
+
+    Tween(Track, 0.3, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
+    Tween(Fill, 0.3, { BackgroundTransparency = 1 }, Enum.EasingStyle.Sine)
+    task.wait(0.2)
+
+    Continue.Text = "CONTINUE  ▶"
+    Continue.Visible = true
+    Tween(Continue, 0.45, { Size = UDim2.fromOffset(200, 38) },
+        Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+
+    TweenService:Create(ContinueStroke, TweenInfo.new(0.9, Enum.EasingStyle.Sine,
+        Enum.EasingDirection.InOut, -1, true), {
+        Transparency = 0.85
+    }):Play()
+
+    repeat
+        task.wait()
+    until Clicked or not Alive
+
+    if not Alive then return end
+
+    -- 7) Exit: zoom + fade out
+    Tween(ContainerScale, 0.6, { Scale = ContainerScale.Scale * 1.08 },
+        Enum.EasingStyle.Sine, Enum.EasingDirection.In)
+
+    local FadeOut = Tween(Intro, 0.6, { GroupTransparency = 1 },
+        Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+    FadeOut.Completed:Wait()
+
+    FitConnection:Disconnect()
+end
+
+task.spawn(function()
+    local ok, err = pcall(PlayIntro)
+
+    if not ok then
+        warn("[Keyless Hub] Intro failed: " .. tostring(err))
+    end
+
+    -- Always clean up the overlay and show the window.
+    local leftover = GUI:FindFirstChild("Intro")
+    if leftover then
+        leftover:Destroy()
+    end
+
+    if Alive then
+        RevealMain()
+    end
+end)
+
+print("KEYLESS HUB v1.6 loaded!")
