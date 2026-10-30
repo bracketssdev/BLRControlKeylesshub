@@ -1,6 +1,6 @@
 --[[
     KEYLESS HUB
-    Version 1.7
+    Version 1.7.1
     Discord: https://discord.gg/VaNyVR2Zwk
     Standalone LocalScript
 
@@ -34,8 +34,6 @@
     when your client has network ownership of the ball.
 ]]
 
-if _G.KeylessHub then return end
-_G.KeylessHub = true
 
 -- SERVICES
 
@@ -46,6 +44,23 @@ local TweenService = game:GetService("TweenService")
 
 local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
+
+-- If an older copy is still around (for example a leftover full-screen overlay
+-- from a previous version), remove it instead of silently doing nothing.
+do
+    local PlayerGui = Player:WaitForChild("PlayerGui")
+
+    for _, name in ipairs({ "Keyless Hub", "BLR Ball Control" }) do
+        local old = PlayerGui:FindFirstChild(name)
+
+        while old do
+            old:Destroy()
+            old = PlayerGui:FindFirstChild(name)
+        end
+    end
+end
+
+_G.KeylessHub = true
 
 -- SETTINGS
 
@@ -182,7 +197,7 @@ local Subtitle = Instance.new("TextLabel")
 Subtitle.Position = UDim2.fromOffset(16, 34)
 Subtitle.Size = UDim2.new(1, -55, 0, 14)
 Subtitle.BackgroundTransparency = 1
-Subtitle.Text = "BALL CONTROL  •  V1.7  •  DRAG TO MOVE"
+Subtitle.Text = "BALL CONTROL  •  V1.7.1  •  DRAG TO MOVE"
 Subtitle.TextColor3 = Purple
 Subtitle.Font = Enum.Font.GothamBold
 Subtitle.TextSize = 9
@@ -1163,4 +1178,4 @@ GUI.Destroying:Connect(function()
     _G.KeylessHub = nil
 end)
 
-print("KEYLESS HUB v1.7 loaded!")
+print("KEYLESS HUB v1.7.1 loaded!")
